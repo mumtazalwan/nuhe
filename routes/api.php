@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\DestinationController;
+use App\Http\Controllers\FunfactController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -17,3 +19,9 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+Route::get('/carousel/discovery', [DestinationController::class, 'discovery']);
+Route::get('/destination', [DestinationController::class, 'index']);
+Route::get('/province/{id}');
+Route::get('/kuliner');
+Route::get('/funfact', [FunfactController::class, 'getFunFact']);
