@@ -17,7 +17,8 @@ class DestinationController extends Controller
         ]);
     }
 
-    public function discovery() {
+    public function discovery()
+    {
         $data = Destination::whereNotNull('banner')->get();
 
         return response()->json([

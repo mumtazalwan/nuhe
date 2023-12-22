@@ -20,13 +20,13 @@ use App\Http\Controllers\ProvinceController;
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
-  Route::get('getprovince', [ProvinceController::class, 'index']);
-  Route::post('/', [ProvinceController::class, 'store']);
-  Route::get('/{id}', [ProvinceController::class, 'show']);
-  Route::delete('/{id}', [ProvinceController::class, 'destroy']);
+  Route::get('/getprovince', [ProvinceController::class, 'index']);
+//  Route::post('/', [ProvinceController::class, 'store']);
+//  Route::get('/{id}', [ProvinceController::class, 'show']);
+//  Route::delete('/{id}', [ProvinceController::class, 'destroy']);
   Route::get('/carousel/discovery', [DestinationController::class, 'discovery']);
   Route::get('/destination', [DestinationController::class, 'index']);
-  Route::get('/province/{id}');
-  Route::get('/kuliner');
+//  Route::get('/province/{id}');
+//  Route::get('/kuliner');
   Route::get('/funfact', [FunfactController::class, 'getFunFact']);
 
