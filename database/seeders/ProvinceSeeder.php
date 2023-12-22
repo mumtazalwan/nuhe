@@ -1,7 +1,8 @@
 <?php
 
 namespace Database\Seeders;
-
+use App\Models\Province;
+use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
 use App\Models\Province;
@@ -774,7 +775,5 @@ class ProvinceSeeder extends Seeder
             'flash_info' => 'Terletak di barat daya Pulau Papua.',
             // 'more_detail' => 'More detail 1',
         ]);
-
-        $provinceData = Province::all();
     }
 }
