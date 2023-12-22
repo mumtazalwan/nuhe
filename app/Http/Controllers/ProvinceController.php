@@ -7,6 +7,7 @@ use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
 use Symfony\Component\HttpFoundation\Response;
+use Throwable;
 
 class ProvinceController extends Controller
 {
@@ -26,7 +27,7 @@ class ProvinceController extends Controller
                 'error' => null,
                 'province' => $provinceData,
             ], Response::HTTP_OK);
-        } catch (\Throwable $th) {
+        } catch (Throwable $th) {
             return response()->json([
                 'success' => false,
                 'message' => 'Server sedang error',
@@ -39,7 +40,7 @@ class ProvinceController extends Controller
     /**
      * Menambahkan data provinsi baru.
      *
-     * @param \Illuminate\Http\Request $request
+     * @param Request $request
      * @return \Illuminate\Http\Response
      */
     public function store(Request $request): JsonResponse
@@ -81,7 +82,7 @@ class ProvinceController extends Controller
                 'message' => 'Data Berhasil Ditambahkan',
                 'province' => $provinceData,
             ], Response::HTTP_CREATED);
-        } catch (\Throwable $th) {
+        } catch (Throwable $th) {
             return response()->json([
                 'success' => false,
                 'message' => 'Server sedang error',
@@ -115,7 +116,7 @@ class ProvinceController extends Controller
                 'message' => 'Detail Province',
                 'province' => $provinceData,
             ], Response::HTTP_OK);
-        } catch (\Throwable $th) {
+        } catch (Throwable $th) {
             return response()->json([
                 'success' => false,
                 'message' => 'Server sedang error',
@@ -151,7 +152,7 @@ class ProvinceController extends Controller
                 'success' => true,
                 'message' => 'Province Berhasil Dihapus',
             ], Response::HTTP_OK);
-        } catch (\Throwable $th) {
+        } catch (Throwable $th) {
             return response()->json([
                 'success' => false,
                 'message' => 'Server sedang error',
