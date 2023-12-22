@@ -29,7 +29,7 @@ return new class extends Migration
             $table->string('music_image');
             $table->string('tradition');
             $table->text('flash_info');
-            $table->text('more_detail');
+            // $table->text('more_detail');
             $table->timestamps();
         });
     }
