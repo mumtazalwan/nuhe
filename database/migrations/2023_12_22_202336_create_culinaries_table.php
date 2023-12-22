@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('culinary_name');
             $table->string('image');
-            $table->string('description');
+            $table->text('description');
             $table->timestamps();
         });
     }
