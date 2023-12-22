@@ -32,7 +32,7 @@ class DestinationSeeder extends Seeder
         Destination::create([
             'name' => 'Gunung Boromo',
             'banner' => null,
-            'image' => Storage::url('bromo_image.png'),
+            'image' => Storage::url('bromo_image.jpg'),
             'location' => 'Gunung Bromo terletak di Taman Nasional Bromo Tengger Semeru, yang berada di Jawa Timur, Indonesia. Secara geografis, gunung ini dapat diakses dari beberapa daerah di sekitarnya seperti Probolinggo, Pasuruan, atau Malang. Salah satu akses utama menuju Gunung Bromo adalah melalui Probolinggo atau Pasuruan. Kawasan sekitar Gunung Bromo menawarkan pemandangan alam yang spektakuler, dengan lautan pasir, kawah aktif, dan lanskap pegunungan yang memukau.',
             'province_id' => 3,
             'history' => 'Gunung Bromo, bagian dari Taman Nasional Bromo Tengger Semeru di Jawa Timur, adalah salah satu ikon alam Indonesia yang menakjubkan. Selain keindahan alamnya yang spektakuler, gunung ini juga terkait erat dengan nilai mitologis dalam budaya Tengger. Legenda lokal menceritakan tentang Roro Anteng dan Joko Seger yang harus menyerahkan anak mereka ke kawah Gunung Bromo sebagai pengorbanan kepada dewa-dewa guna menjaga keselamatan daerah tersebut dari letusan gunung.
