@@ -142,5 +142,79 @@ Dengan keunikan alam dan hewan endemiknya, Pulau Komodo akhirnya menjadi tujuan 
             'interesting_point' => 'Taman Laut Bunaken adalah destinasi yang memukau dengan keanekaragaman hayati lautnya yang luar biasa. Salah satu daya tarik utamanya adalah kehidupan bawah laut yang kaya, dengan terumbu karang yang megah dan beragam spesies ikan yang memikat. Aktivitas snorkeling dan diving menjadi pengalaman yang tak terlupakan di sini, memungkinkan pengunjung untuk mengeksplorasi keindahan terumbu karang yang mempesona sambil berinteraksi dengan berbagai hewan laut yang eksotis. Selain itu, kesadaran akan perlindungan lingkungan dan kegiatan konservasi menjadi fokus penting di Taman Laut Bunaken, mengajak pengunjung untuk mengapresiasi dan mendukung upaya menjaga kelestarian ekosistem laut yang berharga ini.',
             'interesting_image' => ''
         ]);
+
+        Destination::create([
+            'name' => 'Pulau Seribu',
+            'banner' => null,
+            'image' => '',
+            'location' => 'Pulau Seribu adalah gugusan pulau yang terletak di Teluk Jakarta, Indonesia, membentang di sepanjang pantai utara Jakarta dengan lanskap yang memukau dan air laut yang jernih. Terdiri dari sekitar 110 pulau kecil dan besar, beberapa di antaranya menjadi tujuan wisata populer bagi pelancong lokal maupun internasional. Keindahan alam bawah lautnya yang menakjubkan menjadi daya tarik utama bagi para penyelam dan snorkeling, sementara pantai-pantai berpasir putih dan kegiatan air lainnya seperti menyelam, berlayar, dan menikmati sunset menjadi daya tarik lain yang tak terlupakan bagi pengunjung yang datang ke sini.',
+            'province_id' => 3,
+            'history' => 'Pulau Seribu memiliki sejarah yang kaya dan beragam. Pada zaman kolonial Belanda, pulau-pulau ini digunakan sebagai tempat peristirahatan bagi pejabat pemerintah dan orang-orang kaya. Selain itu, pulau-pulau ini juga memiliki sejarah terkait dengan aktivitas nelayan yang tinggal di sekitar wilayah tersebut selama bertahun-tahun.
+
+Pada masa Orde Baru di Indonesia, pulau-pulau ini mengalami perkembangan pariwisata yang signifikan. Pemerintah mulai mengembangkan infrastruktur pariwisata, membangun resor, dan menarik investasi untuk mendukung pertumbuhan industri wisata di wilayah tersebut.
+
+Namun, seiring dengan pertumbuhan pariwisata, Pulau Seribu juga menghadapi tantangan terkait pengelolaan lingkungan dan pemeliharaan kelestarian alam. Masalah seperti polusi, penangkapan ikan yang berlebihan, dan pengembangan yang tidak terkontrol telah menjadi perhatian dalam upaya melestarikan keindahan alam dan ekosistem yang unik di pulau-pulau tersebut.
+
+Selain itu, Pulau Seribu juga memiliki sejarah terkait dengan kebudayaan lokal dan adat istiadat masyarakat pesisir yang tinggal di sana. Mereka memiliki kehidupan tradisional yang terkait erat dengan laut dan alam sekitarnya, menjaga kearifan lokal dan keberlanjutan sumber daya alam yang mereka butuhkan untuk kehidupan sehari-hari.',
+            'image_history_one' => '',
+            'image_history_two' => '',
+            'attraction' => 'Pulau Seribu menawarkan beragam aktivitas yang memikat bagi para pengunjungnya. Aktivitas utama meliputi snorkeling dan menyelam di perairan yang jernih, memungkinkan untuk mengeksplorasi keindahan terumbu karang yang kaya akan kehidupan laut yang beragam. Pulau-pulau ini juga menyediakan fasilitas untuk berlayar, baik dengan perahu tradisional maupun modern, sehingga pengunjung dapat menikmati keindahan panorama laut yang luas.
+
+Selain itu, pantai-pantai pasir putih di Pulau Seribu menjadi tempat ideal untuk bersantai, berjemur, atau bermain olahraga pantai seperti voli. Beberapa pulau juga menawarkan hiking ringan atau trekking kecil di sekitar area pulau, memungkinkan pengunjung untuk menikmati keindahan alam daratan dan pemandangan yang menakjubkan. Ada juga peluang untuk menikmati kegiatan lain seperti memancing, berkemah, atau hanya menikmati keindahan matahari terbenam yang spektakuler di ufuk laut Pulau Seribu.',
+            'image_attraction_one' => '',
+            'image_attraction_two' => '',
+            'interesting_point' => 'Daya tarik Pulau Seribu terletak pada keindahan alamnya yang menakjubkan. Pulau-pulau dengan pasir putih, air laut yang jernih, serta terumbu karang yang indah menjadi magnet bagi wisatawan yang ingin menikmati kecantikan alam bawah lautnya melalui snorkeling dan menyelam. Keberagaman hayati yang luar biasa dalam bentuk ikan-ikan warna-warni, terumbu karang yang hidup, serta kehadiran hewan-hewan laut menarik perhatian para pecinta alam.
+
+Selain itu, panorama laut yang memukau juga menawarkan pengalaman berlayar yang mengasyikkan. Aktivitas ini memungkinkan wisatawan untuk menjelajahi pulau-pulau sekitar, menikmati angin laut, dan menyaksikan keindahan pemandangan laut yang luas. Sementara itu, pantai-pantai yang tenang dan bersih menjadi tempat ideal untuk bersantai sambil menikmati matahari atau berbagai kegiatan olahraga pantai. Keseluruhan pengalaman di Pulau Seribu memberikan sentuhan harmoni antara keindahan alam, petualangan di laut, dan ketenangan di tepi pantai.',
+            'interesting_image' => ''
+        ]);
+
+        Destination::create([
+            'name' => 'Pantai Pandawa',
+            'banner' => null,
+            'image' => '',
+            'location' => 'Pantai Pandawa terletak di selatan Bali, Indonesia, di antara dua bukit yang menjulang tinggi, memberikan suasana pantai yang eksklusif dan indah. Tersembunyi di balik tebing-tebing kapur yang kokoh, pantai ini terkenal dengan pasir putihnya yang halus dan air lautnya yang jernih. Pantai Pandawa menawarkan pemandangan alam yang menakjubkan serta kesempatan bagi pengunjung untuk menikmati kegiatan seperti berjemur, berenang, dan menikmati olahraga air seperti jetski atau banana boat. Tempat ini juga dikenal dengan patung-patung lima Pandawa yang megah yang menghiasi sisi tebing, menambahkan sentuhan budaya dan keindahan alam yang unik bagi pengunjung yang datang ke pantai ini.',
+            'province_id' => 3,
+            'history' => 'Pantai Pandawa memiliki sejarah yang menarik di Pulau Bali, Indonesia. Dahulu, pantai ini tidak begitu terjangkau karena aksesnya yang sulit melalui tebing-tebing kapur yang tinggi. Pada tahun 1990-an, pemerintah setempat melakukan pembukaan jalan menuju pantai ini, membuatnya lebih mudah diakses oleh wisatawan dan masyarakat umum.
+
+Sebelum menjadi tujuan wisata yang populer, Pantai Pandawa juga dikenal sebagai pantai yang kurang ramai dan lebih terpencil. Namun, dengan pengembangan infrastruktur dan promosi pariwisata yang dilakukan oleh pemerintah setempat, Pantai Pandawa mulai dikenal sebagai destinasi wisata yang menarik dengan pasir putihnya yang indah dan air laut yang jernih.
+
+Selain keindahan alamnya, pantai ini juga dihiasi dengan patung-patung lima tokoh Pandawa dari kisah epik Mahabharata yang dibangun pada tahun 2010-an. Patung-patung ini menjadi salah satu daya tarik tambahan dan menjadi bagian dari keunikan pantai ini. Sejak saat itu, Pantai Pandawa telah menjadi salah satu destinasi favorit bagi wisatawan yang mengunjungi Bali, menawarkan keindahan alam serta sentuhan budaya yang memikat.',
+            'image_history_one' => '',
+            'image_history_two' => '',
+            'attraction' => 'Pantai Pandawa menawarkan beragam kegiatan yang memikat bagi pengunjungnya. Di sini, Anda bisa menikmati keindahan pantai dengan pasir putihnya yang halus, berjemur di bawah sinar matahari yang hangat, atau sekadar bersantai sambil menikmati pemandangan laut yang memukau. Wisatawan juga dapat berenang di air laut yang jernih atau menyewa peralatan untuk aktivitas olahraga air seperti jetski, banana boat, atau parasailing. Selain itu, pantai ini merupakan tempat yang tepat untuk menikmati kelezatan hidangan laut yang segar di warung-warung pinggir pantai yang menawarkan berbagai hidangan lokal. Jika Anda tertarik dengan seni dan budaya, patung-patung Pandawa yang megah di sisi tebing juga dapat dinikmati sebagai bagian dari pengalaman unik di Pantai Pandawa.',
+            'image_attraction_one' => '',
+            'image_attraction_two' => '',
+            'interesting_point' => 'Pantai Pandawa menarik perhatian dengan beberapa poin menarik yang membuatnya menjadi destinasi yang diminati di Bali. Salah satunya adalah keindahan alamnya yang luar biasa, terutama dengan pasir putih yang halus dan air laut yang jernih, menciptakan atmosfer yang tenang dan mempesona bagi para pengunjung yang ingin bersantai atau berjemur.
+
+Patung-patung lima tokoh Pandawa yang megah yang menghiasi sisi tebing menjadi daya tarik lainnya, menambahkan nuansa budaya dan nilai seni yang unik di pantai ini. Terletak di antara tebing-tebing kapur yang menjulang tinggi, Pantai Pandawa juga menawarkan pengalaman yang eksklusif dengan suasana yang lebih sepi dan tenang dibandingkan dengan beberapa pantai lain di Bali.
+
+Aktivitas seperti berenang, menyelam, atau menikmati olahraga air juga tersedia di sini, menambahkan kesempatan bagi pengunjung untuk mengeksplorasi keindahan bawah laut atau sekadar memiliki waktu yang menyenangkan di tepi pantai. Terakhir, keberadaan warung-warung pinggir pantai yang menyajikan hidangan laut segar merupakan nilai tambah bagi wisatawan yang ingin merasakan kelezatan kuliner lokal sembari menikmati pemandangan laut yang menakjubkan.',
+            'interesting_image' => ''
+        ]);
+
+        Destination::create([
+            'name' => 'Raja Ampat',
+            'banner' => null,
+            'image' => '',
+            'location' => 'Raja Ampat terletak di Provinsi Papua Barat, Indonesia, merupakan gugusan kepulauan yang terkenal akan keindahan alam bawah lautnya yang luar biasa. Terdiri dari sekitar 1.500 pulau kecil yang tersebar di sekitar Samudera Pasifik, Raja Ampat menjadi tujuan utama bagi para penyelam dan pecinta alam karena keanekaragaman hayati yang luar biasa di bawah permukaan airnya. Terumbu karang yang spektakuler, beragam spesies ikan tropis, dan kehadiran hewan-hewan laut yang langka, seperti hiu paus dan penyu, menjadikan Raja Ampat sebagai surga bagi para penggemar keindahan laut yang belum tersentuh oleh perkembangan modern secara besar-besaran.',
+            'province_id' => 3,
+            'history' => 'Sejarah Raja Ampat meliputi warisan budaya yang kaya dan perjalanan yang beragam. Secara historis, wilayah ini telah menjadi rumah bagi suku asli yang disebut sebagai orang Papua, yang hidup di kepulauan ini sejak ribuan tahun yang lalu. Mereka memiliki tradisi nelayan yang kuat dan hubungan yang erat dengan laut, memanfaatkan kekayaan alam untuk kebutuhan mereka sehari-hari. Budaya mereka, termasuk seni, tarian, dan musik tradisional, menjadi bagian penting dari sejarah Raja Ampat.
+
+Pada abad ke-16, Raja Ampat menjadi pusat perdagangan rempah-rempah dan jalur pelayaran penting bagi bangsa-bangsa maritim seperti Belanda dan Spanyol. Kedatangan para pedagang Eropa membawa perubahan besar dalam dinamika wilayah ini, termasuk pengenalan agama dan budaya baru. Namun, kehadiran kolonialisme Eropa juga membawa konsekuensi yang signifikan terhadap kehidupan tradisional masyarakat setempat.
+
+Selama abad ke-20, Raja Ampat menjadi bagian dari Indonesia setelah kemerdekaannya dari penjajahan Belanda. Wilayah ini terus mempertahankan kekayaan alamnya yang menakjubkan, tetapi juga mengalami perubahan dalam hal pengembangan infrastruktur pariwisata dan kegiatan ekonomi lainnya. Seiring dengan peningkatan minat wisatawan terhadap keindahan alam bawah lautnya yang luar biasa, Raja Ampat menjadi destinasi yang terkenal di dunia bagi para penyelam dan pencinta alam. Peran penting untuk melestarikan lingkungan alamnya tetap menjadi fokus, di tengah upaya untuk menjaga keseimbangan antara pariwisata dan keberlanjutan lingkungan.',
+            'image_history_one' => '',
+            'image_history_two' => '',
+            'attraction' => 'Raja Ampat menawarkan sejumlah kegiatan luar biasa bagi pengunjungnya. Salah satunya adalah penyelaman atau snorkeling di perairan yang kaya akan keanekaragaman hayati. Terumbu karang yang spektakuler, ikan-ikan warna-warni, hingga hewan-hewan laut langka seperti hiu paus dan penyu, menawarkan pengalaman bawah laut yang tak terlupakan bagi para pecinta alam.
+
+Selain itu, eksplorasi pulau-pulau kecil di sekitar Raja Ampat juga sangat menarik. Pengunjung dapat melakukan perjalanan ke pulau-pulau terpencil, berjalan-jalan di hutan belantara, atau menikmati keindahan pantai yang bersih dan terpencil. Aktivitas lainnya termasuk berlayar di perairan yang tenang, menyusuri pantai dengan kayak, atau menikmati keindahan matahari terbenam yang memukau di tepi pantai.
+
+Bagi yang tertarik dengan budaya lokal, berinteraksi dengan masyarakat Papua asli juga menjadi pengalaman yang berharga. Mengenal kehidupan sehari-hari mereka, belajar tentang kebiasaan dan tradisi mereka, serta menikmati seni, musik, dan tarian tradisional dapat menambah kedalaman pengalaman di Raja Ampat. Dengan begitu banyaknya aktivitas menarik, Raja Ampat menjadi surga bagi pencinta alam, petualang, dan mereka yang mencari pengalaman yang tak terlupakan di alam yang belum tersentuh.',
+            'image_attraction_one' => '',
+            'image_attraction_two' => '',
+            'interesting_point' => 'Raja Ampat adalah surga bagi para pecinta alam dengan kekayaan hayati bawah laut yang luar biasa. Terumbu karang yang spektakuler, lebih dari 1.500 spesies ikan, dan keberadaan hewan laut langka seperti hiu paus dan penyu menjadikan destinasi ini sebagai surganya penyelam dan penggemar snorkeling. Di atas permukaan, pulau-pulau terpencil dengan pasir putih, tebing-tebing yang menjulang, serta hutan belantara yang menakjubkan menawarkan pemandangan alam yang memukau. Interaksi dengan masyarakat Papua asli, mengeksplorasi kehidupan sehari-hari mereka, dan menikmati seni budaya lokal menjadi pengalaman yang kaya bagi pengunjung yang ingin merasakan keindahan alam yang belum tersentuh dan kekayaan budaya yang unik.',
+            'interesting_image' => ''
+        ]);
     }
 }
