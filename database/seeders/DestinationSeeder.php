@@ -130,7 +130,7 @@ Dengan keunikan alam dan hewan endemiknya, Pulau Komodo akhirnya menjadi tujuan 
         Destination::create([
             'name' => 'Taman Laut Bunaken',
             'banner' => null,
-            'image' => Storage::url('monas_image.jpg'),
+            'image' => Storage::url('bunaken_image.jpg'),
             'location' => 'Taman Laut Bunaken terletak di Sulawesi Utara, Indonesia, yang dikenal sebagai salah satu tujuan utama bagi para penyelam. Taman laut ini menawarkan keindahan bawah laut yang luar biasa dengan terumbu karang yang kaya akan keanekaragaman hayati laut. Dengan akses mudah dari Manado, perairannya yang jernih dan dipenuhi dengan ragam spesies ikan, terumbu karang yang megah, serta panorama alam bawah laut yang menakjubkan, menjadikan Bunaken sebagai surga bagi para penyelam dan penggemar snorkeling yang ingin mengeksplorasi kekayaan biota laut yang mempesona.',
             'province_id' => 3,
             'history' => 'Taman Laut Bunaken memiliki sejarah yang mencakup langkah-langkah perlindungan dan konservasi terhadap keanekaragaman hayati laut yang dimulai sejak tahun 1980-an. Pada tahun 1991, Indonesia secara resmi mendeklarasikan wilayah ini sebagai taman laut nasional untuk melindungi ekosistem terumbu karang dan kehidupan lautnya yang kaya. Langkah-langkah konservasi ini melibatkan upaya perlindungan terhadap spesies laut dan terumbu karang, serta pengelolaan ekowisata dengan mempertimbangkan dampak terhadap lingkungan. Keterlibatan masyarakat lokal dan lembaga konservasi memainkan peran penting dalam menjaga kelestarian Taman Laut Bunaken sebagai salah satu surga bawah laut yang terkenal di Indonesia.',
