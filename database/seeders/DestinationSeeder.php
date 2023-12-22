@@ -32,7 +32,7 @@ class DestinationSeeder extends Seeder
         Destination::create([
             'name' => 'Gunung Boromo',
             'banner' => null,
-            'image' => Storage::url('bromo_imager.png'),
+            'image' => Storage::url('bromo_image.png'),
             'location' => 'Gunung Bromo terletak di Taman Nasional Bromo Tengger Semeru, yang berada di Jawa Timur, Indonesia. Secara geografis, gunung ini dapat diakses dari beberapa daerah di sekitarnya seperti Probolinggo, Pasuruan, atau Malang. Salah satu akses utama menuju Gunung Bromo adalah melalui Probolinggo atau Pasuruan. Kawasan sekitar Gunung Bromo menawarkan pemandangan alam yang spektakuler, dengan lautan pasir, kawah aktif, dan lanskap pegunungan yang memukau.',
             'province_id' => 3,
             'history' => 'Gunung Bromo, bagian dari Taman Nasional Bromo Tengger Semeru di Jawa Timur, adalah salah satu ikon alam Indonesia yang menakjubkan. Selain keindahan alamnya yang spektakuler, gunung ini juga terkait erat dengan nilai mitologis dalam budaya Tengger. Legenda lokal menceritakan tentang Roro Anteng dan Joko Seger yang harus menyerahkan anak mereka ke kawah Gunung Bromo sebagai pengorbanan kepada dewa-dewa guna menjaga keselamatan daerah tersebut dari letusan gunung.
@@ -70,7 +70,7 @@ class DestinationSeeder extends Seeder
         Destination::create([
             'name' => 'Lawang Sewu',
             'banner' => null,
-            'image' => Storage::url('lawangsewu_image.png'),
+            'image' => Storage::url('lawangsewu_image.jpg'),
             'location' => 'Lawang Sewu, terletak di pusat kota Semarang, Jawa Tengah, Indonesia, menghadirkan pesona yang memukau bagi pengunjungnya. Bangunan ini dikelilingi oleh area yang kaya akan nilai sejarah kolonial Belanda di mana arsitektur megahnya mencerminkan warisan zaman dahulu. Lokasinya yang strategis memudahkan akses bagi wisatawan yang ingin menjelajahi keindahan dan kekayaan sejarah Semarang, menawarkan pengalaman yang tak terlupakan dalam memahami masa lalu yang beragam.',
             'province_id' => 3,
             'history' => 'Lawang Sewu, yang secara harfiah berarti "seribu pintu" dalam bahasa Jawa, adalah salah satu ikon sejarah Semarang, Jawa Tengah, yang sarat dengan kisah yang menarik. Dibangun pada awal abad ke-20 oleh pemerintah kolonial Belanda, bangunan ini awalnya menjadi kantor pusat perusahaan kereta api Hindia Belanda. Disebut "seribu pintu" karena desainnya yang memiliki banyak pintu dan jendela besar yang mengesankan. Namun, sebenarnya jumlah pintu dan jendela tidak sampai seribu.
@@ -90,7 +90,7 @@ class DestinationSeeder extends Seeder
         Destination::create([
             'name' => 'Tanah Lot',
             'banner' => null,
-            'image' => Storage::url('tanahlot_image.png'),
+            'image' => Storage::url('tanahlot_image.jpg'),
             'location' => 'Tanah Lot adalah sebuah kuil Hindu yang terletak di pesisir barat daya Bali, Indonesia. Kuil ini dikenal karena berdiri di atas batu karang besar di tengah laut, menjadi salah satu ikonik destinasi wisata pulau itu. Selain keindahan arsitektur dan tempat ibadahnya, Tanah Lot menawarkan pemandangan matahari terbenam yang menakjubkan, menjadikannya tempat yang populer bagi wisatawan yang ingin menikmati keindahan alam dan keunikan budaya Bali secara bersamaan.',
             'province_id' => 3,
             'history' => 'Tanah Lot memiliki sejarah kaya yang terkait erat dengan warisan budaya Bali. Kuil ini diyakini telah dibangun pada abad ke-16 oleh seorang pendeta Hindu, Dang Hyang Nirartha, yang dikenal sebagai tokoh spiritual penting di Bali. Menurut legenda, Nirartha datang ke Bali dari Jawa untuk menyebarkan ajaran agama Hindu. Dia memilih Tanah Lot sebagai tempat suci untuk meditasi karena keindahan alamnya yang menakjubkan dan ketenangan yang dimilikinya.
@@ -110,7 +110,7 @@ Namun, selain sebagai tempat ibadah, Tanah Lot telah menjadi salah satu destinas
         Destination::create([
             'name' => 'Pulau Komodo',
             'banner' => null,
-            'image' => Storage::url('pulaukomodo_image.png'),
+            'image' => Storage::url('pulaukomodo_image.jpg'),
             'location' => 'Pulau Komodo terletak di Provinsi Nusa Tenggara Timur, Indonesia, sebagai bagian dari Taman Nasional Komodo yang juga termasuk pulau-pulau sekitarnya seperti Rinca dan Padar. Kawasan ini terkenal karena menjadi habitat bagi komodo, kadal raksasa yang menjadi spesies endemik di Indonesia. Dikelilingi oleh perairan yang kaya akan keanekaragaman hayati laut, pulau ini juga menjadi surga bagi para penyelam dan penggemar snorkeling yang ingin mengeksplorasi keindahan bawah lautnya yang mempesona.',
             'province_id' => 3,
             'history' => 'Pulau Komodo, terletak di Provinsi Nusa Tenggara Timur, Indonesia, memiliki sejarah yang kaya. Perjalanan menjadi tempat wisata terkenal dimulai ketika Komodo dan pulau-pulau sekitarnya diresmikan sebagai Taman Nasional pada tahun 1980. Keputusan ini diambil untuk melindungi komodo, kadal raksasa yang merupakan spesies endemik dan salah satu hewan terbesar di dunia, yang hanya ditemukan di kepulauan ini. Langkah ini seiring dengan upaya konservasi untuk melestarikan lingkungan alam serta mempertahankan keberadaan komodo.
@@ -130,7 +130,7 @@ Dengan keunikan alam dan hewan endemiknya, Pulau Komodo akhirnya menjadi tujuan 
         Destination::create([
             'name' => 'Taman Laut Bunaken',
             'banner' => null,
-            'image' => Storage::url('monas_image.png'),
+            'image' => Storage::url('monas_image.jpg'),
             'location' => 'Taman Laut Bunaken terletak di Sulawesi Utara, Indonesia, yang dikenal sebagai salah satu tujuan utama bagi para penyelam. Taman laut ini menawarkan keindahan bawah laut yang luar biasa dengan terumbu karang yang kaya akan keanekaragaman hayati laut. Dengan akses mudah dari Manado, perairannya yang jernih dan dipenuhi dengan ragam spesies ikan, terumbu karang yang megah, serta panorama alam bawah laut yang menakjubkan, menjadikan Bunaken sebagai surga bagi para penyelam dan penggemar snorkeling yang ingin mengeksplorasi kekayaan biota laut yang mempesona.',
             'province_id' => 3,
             'history' => 'Taman Laut Bunaken memiliki sejarah yang mencakup langkah-langkah perlindungan dan konservasi terhadap keanekaragaman hayati laut yang dimulai sejak tahun 1980-an. Pada tahun 1991, Indonesia secara resmi mendeklarasikan wilayah ini sebagai taman laut nasional untuk melindungi ekosistem terumbu karang dan kehidupan lautnya yang kaya. Langkah-langkah konservasi ini melibatkan upaya perlindungan terhadap spesies laut dan terumbu karang, serta pengelolaan ekowisata dengan mempertimbangkan dampak terhadap lingkungan. Keterlibatan masyarakat lokal dan lembaga konservasi memainkan peran penting dalam menjaga kelestarian Taman Laut Bunaken sebagai salah satu surga bawah laut yang terkenal di Indonesia.',
@@ -146,7 +146,7 @@ Dengan keunikan alam dan hewan endemiknya, Pulau Komodo akhirnya menjadi tujuan 
         Destination::create([
             'name' => 'Pulau Seribu',
             'banner' => null,
-            'image' => Storage::url('pulauseribu_image.png'),
+            'image' => Storage::url('pulauseribu_image.jpg'),
             'location' => 'Pulau Seribu adalah gugusan pulau yang terletak di Teluk Jakarta, Indonesia, membentang di sepanjang pantai utara Jakarta dengan lanskap yang memukau dan air laut yang jernih. Terdiri dari sekitar 110 pulau kecil dan besar, beberapa di antaranya menjadi tujuan wisata populer bagi pelancong lokal maupun internasional. Keindahan alam bawah lautnya yang menakjubkan menjadi daya tarik utama bagi para penyelam dan snorkeling, sementara pantai-pantai berpasir putih dan kegiatan air lainnya seperti menyelam, berlayar, dan menikmati sunset menjadi daya tarik lain yang tak terlupakan bagi pengunjung yang datang ke sini.',
             'province_id' => 3,
             'history' => 'Pulau Seribu memiliki sejarah yang kaya dan beragam. Pada zaman kolonial Belanda, pulau-pulau ini digunakan sebagai tempat peristirahatan bagi pejabat pemerintah dan orang-orang kaya. Selain itu, pulau-pulau ini juga memiliki sejarah terkait dengan aktivitas nelayan yang tinggal di sekitar wilayah tersebut selama bertahun-tahun.
@@ -172,7 +172,7 @@ Selain itu, panorama laut yang memukau juga menawarkan pengalaman berlayar yang 
         Destination::create([
             'name' => 'Pantai Pandawa',
             'banner' => null,
-            'image' => Storage::url('pantaipandawa_image.png'),
+            'image' => Storage::url('pantaipandawa_image.jpg'),
             'location' => 'Pantai Pandawa terletak di selatan Bali, Indonesia, di antara dua bukit yang menjulang tinggi, memberikan suasana pantai yang eksklusif dan indah. Tersembunyi di balik tebing-tebing kapur yang kokoh, pantai ini terkenal dengan pasir putihnya yang halus dan air lautnya yang jernih. Pantai Pandawa menawarkan pemandangan alam yang menakjubkan serta kesempatan bagi pengunjung untuk menikmati kegiatan seperti berjemur, berenang, dan menikmati olahraga air seperti jetski atau banana boat. Tempat ini juga dikenal dengan patung-patung lima Pandawa yang megah yang menghiasi sisi tebing, menambahkan sentuhan budaya dan keindahan alam yang unik bagi pengunjung yang datang ke pantai ini.',
             'province_id' => 3,
             'history' => 'Pantai Pandawa memiliki sejarah yang menarik di Pulau Bali, Indonesia. Dahulu, pantai ini tidak begitu terjangkau karena aksesnya yang sulit melalui tebing-tebing kapur yang tinggi. Pada tahun 1990-an, pemerintah setempat melakukan pembukaan jalan menuju pantai ini, membuatnya lebih mudah diakses oleh wisatawan dan masyarakat umum.
@@ -196,7 +196,7 @@ Aktivitas seperti berenang, menyelam, atau menikmati olahraga air juga tersedia 
         Destination::create([
             'name' => 'Raja Ampat',
             'banner' => null,
-            'image' => Storage::url('rajaamat_image.png'),
+            'image' => Storage::url('rajaampat_image.jpg'),
             'location' => 'Raja Ampat terletak di Provinsi Papua Barat, Indonesia, merupakan gugusan kepulauan yang terkenal akan keindahan alam bawah lautnya yang luar biasa. Terdiri dari sekitar 1.500 pulau kecil yang tersebar di sekitar Samudera Pasifik, Raja Ampat menjadi tujuan utama bagi para penyelam dan pecinta alam karena keanekaragaman hayati yang luar biasa di bawah permukaan airnya. Terumbu karang yang spektakuler, beragam spesies ikan tropis, dan kehadiran hewan-hewan laut yang langka, seperti hiu paus dan penyu, menjadikan Raja Ampat sebagai surga bagi para penggemar keindahan laut yang belum tersentuh oleh perkembangan modern secara besar-besaran.',
             'province_id' => 3,
             'history' => 'Sejarah Raja Ampat meliputi warisan budaya yang kaya dan perjalanan yang beragam. Secara historis, wilayah ini telah menjadi rumah bagi suku asli yang disebut sebagai orang Papua, yang hidup di kepulauan ini sejak ribuan tahun yang lalu. Mereka memiliki tradisi nelayan yang kuat dan hubungan yang erat dengan laut, memanfaatkan kekayaan alam untuk kebutuhan mereka sehari-hari. Budaya mereka, termasuk seni, tarian, dan musik tradisional, menjadi bagian penting dari sejarah Raja Ampat.
