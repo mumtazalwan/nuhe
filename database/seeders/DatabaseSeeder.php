@@ -14,7 +14,8 @@ class DatabaseSeeder extends Seeder
         $this->call([
             FunfactSeeder::class,
             DestinationSeeder::class,
-            ProvinceSeeder::class
+            ProvinceSeeder::class,
+            CulinarySeeder::class
         ]);
     }
 }
