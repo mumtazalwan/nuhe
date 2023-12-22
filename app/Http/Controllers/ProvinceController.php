@@ -161,4 +161,12 @@ class ProvinceController extends Controller
             ], Response::HTTP_INTERNAL_SERVER_ERROR);
         }
     }
+
+    public function detail(Province $id){
+        return response()->json([
+            'success' => true,
+            'message' => 'Detail Province',
+            'data' => $id
+        ], Response::HTTP_OK);
+    }
 }

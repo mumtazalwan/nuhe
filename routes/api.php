@@ -29,4 +29,5 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 //  Route::get('/province/{id}');
 //  Route::get('/kuliner');
   Route::get('/funfact', [FunfactController::class, 'getFunFact']);
+  Route::get('/getprovince/detail/{id}', [ProvinceController::class, 'detail']);
 
