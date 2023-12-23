@@ -1,10 +1,8 @@
 <?php
 
 namespace Database\Seeders;
-
-use Illuminate\Database\Seeder;
-use Illuminate\Support\Facades\DB;
 use App\Models\Province;
+use Illuminate\Database\Seeder;
 
 class ProvinceSeeder extends Seeder
 {
@@ -774,7 +772,5 @@ class ProvinceSeeder extends Seeder
             'flash_info' => 'Papua Barat Daya adalah bagian dari Provinsi Papua Barat yang terletak di wilayah barat daya Pulau Papua. Daerah ini menampilkan keindahan alam yang menakjubkan, terutama dengan pemandangan pantai-pantai yang eksotis, pegunungan yang megah, dan kekayaan budaya dari suku-suku asli Papua. Papua Barat Daya merupakan rumah bagi Taman Nasional Teluk Cenderawasih yang terkenal dengan terumbu karangnya yang spektakuler dan menjadi habitat bagi lumba-lumba dan penyu. Daerah ini juga memiliki budaya yang kaya dari suku-suku setempat, tercermin dalam seni, tarian, dan upacara adat mereka yang unik. Sorong, salah satu kota utamanya, menjadi pintu gerbang untuk mengeksplorasi keindahan alam dan kehidupan budaya di Papua Barat Daya.',
             // 'more_detail' => 'More detail 1',
         ]);
-
-        $provinceData = Province::all();
     }
 }

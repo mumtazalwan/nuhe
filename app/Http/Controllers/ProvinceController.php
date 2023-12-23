@@ -3,10 +3,11 @@
 namespace App\Http\Controllers;
 
 use App\Models\Province;
+use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
-use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Validator;
 use Symfony\Component\HttpFoundation\Response;
+use Throwable;
 
 class ProvinceController extends Controller
 {
@@ -15,7 +16,7 @@ class ProvinceController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(): JsonResponse
     {
         try {
             $provinceData = Province::all();
@@ -26,7 +27,7 @@ class ProvinceController extends Controller
                 'error' => null,
                 'province' => $provinceData,
             ], Response::HTTP_OK);
-        } catch (\Throwable $th) {
+        } catch (Throwable $th) {
             return response()->json([
                 'success' => false,
                 'message' => 'Server sedang error',
@@ -39,10 +40,10 @@ class ProvinceController extends Controller
     /**
      * Menambahkan data provinsi baru.
      *
-     * @param  \Illuminate\Http\Request  $request
+     * @param Request $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(Request $request): JsonResponse
     {
         $validator = Validator::make($request->all(), [
             'province_name' => ['', 'string'],
@@ -70,7 +71,7 @@ class ProvinceController extends Controller
                 'message' => 'Data Tidak Valid',
                 'error' => $validator->errors()->first(),
                 'province' => null,
-            ], Response::HTTP_UNPROCESSABLE_ENTITY);
+            ]);
         }
 
         try {
@@ -81,7 +82,7 @@ class ProvinceController extends Controller
                 'message' => 'Data Berhasil Ditambahkan',
                 'province' => $provinceData,
             ], Response::HTTP_CREATED);
-        } catch (\Throwable $th) {
+        } catch (Throwable $th) {
             return response()->json([
                 'success' => false,
                 'message' => 'Server sedang error',
@@ -94,10 +95,10 @@ class ProvinceController extends Controller
     /**
      * Menampilkan detail provinsi.
      *
-     * @param  int  $id
+     * @param int $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show($id): JsonResponse
     {
         try {
             $provinceData = Province::find($id);
@@ -115,7 +116,7 @@ class ProvinceController extends Controller
                 'message' => 'Detail Province',
                 'province' => $provinceData,
             ], Response::HTTP_OK);
-        } catch (\Throwable $th) {
+        } catch (Throwable $th) {
             return response()->json([
                 'success' => false,
                 'message' => 'Server sedang error',
@@ -128,10 +129,10 @@ class ProvinceController extends Controller
     /**
      * Menghapus provinsi dari database.
      *
-     * @param  int  $id
+     * @param int $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function destroy($id): JsonResponse
     {
         $provinceData = Province::find($id);
 
@@ -151,7 +152,7 @@ class ProvinceController extends Controller
                 'success' => true,
                 'message' => 'Province Berhasil Dihapus',
             ], Response::HTTP_OK);
-        } catch (\Throwable $th) {
+        } catch (Throwable $th) {
             return response()->json([
                 'success' => false,
                 'message' => 'Server sedang error',
@@ -159,5 +160,13 @@ class ProvinceController extends Controller
                 'province' => null,
             ], Response::HTTP_INTERNAL_SERVER_ERROR);
         }
+    }
+
+    public function detail(Province $id){
+        return response()->json([
+            'success' => true,
+            'message' => 'Detail Province',
+            'data' => $id
+        ], Response::HTTP_OK);
     }
 }
