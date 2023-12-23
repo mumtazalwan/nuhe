@@ -14,6 +14,7 @@ return new class extends Migration
         Schema::create('provinces', function (Blueprint $table) {
             $table->id();
             $table->string('province_name');
+            $table->string('banner')->nullable();
             $table->string('capital');
             $table->string('local_language');
             $table->string('island');
@@ -21,12 +22,16 @@ return new class extends Migration
             $table->string('ethnic');
             $table->string('regional_house');
             $table->string('regional_house_image');
+            $table->string('house_desc')->nullable();
             $table->string('dance');
             $table->string('dance_image');
+            $table->text('dance_desc')->nullable();
             $table->string('weapon');
             $table->string('weapon_image');
+            $table->text('weapon_desc')->nullable();
             $table->string('music');
             $table->string('music_image');
+            $table->text('music_desc')->nullable();
             $table->string('tradition');
             $table->text('flash_info');
             // $table->text('more_detail');

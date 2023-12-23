@@ -51,7 +51,7 @@ class DestinationSeeder extends Seeder
             'name' => 'Monas',
             'banner' => Storage::url('monas_banner.jpg'),
             'image' => Storage::url('monas_image.png'),
-            'location' => 'Candi Borobudur terletak di Jawa Tengah, Indonesia, sekitar 40 kilometer sebelah barat daya Yogyakarta. Berdiri megah di antara lereng Gunung Merapi, Merbabu, dan Menoreh, candi ini menjadi salah satu situs sejarah terpenting di Indonesia. Lokasinya yang berada di tengah-tengah pegunungan memberikan pemandangan spektakuler saat matahari terbit, menciptakan suasana magis yang menakjubkan bagi pengunjungnya.',
+            'location' => 'Monumen Nasional (Monas) adalah landmark ikonik di Jakarta, Indonesia. Terletak di pusat kota, Monas adalah simbol penting kemerdekaan Indonesia. Dengan tinggi 132 meter, Monas menawarkan pemandangan indah Jakarta dari puncaknya. Tempat ini sering menjadi lokasi perayaan nasional dan menarik banyak wisatawan dari dalam dan luar negeri.',
             'province_id' => 3,
             'history' => 'Monumen Nasional (Monas) yang megah dan ikonik di Jakarta, Indonesia, menjadi simbol penting dalam sejarah dan budaya negara ini. Dibangun antara tahun 1961 hingga 1975 di bawah kepemimpinan Presiden Soekarno, Monas menjadi monumen untuk mengenang perjuangan dan kemerdekaan Indonesia dari masa penjajahan Belanda. Desainnya yang unik menampilkan obelisk setinggi 132 meter yang melambangkan semangat kemerdekaan.
 
