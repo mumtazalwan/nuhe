@@ -24,12 +24,12 @@ class ProvinceSeeder extends Seeder
             'regional_house_image' => 'house1.jpg',
             'dance' => 'Saman',
             'dance_image' => 'dance1.jpg',
-            'weapon' => 'Rencong',
+            'weapon' => 'Badik Tumbuk Lada',
             'weapon_image' => 'weapon1.jpg',
             'music' => 'Tambur',
             'music_image' => 'music1.jpg',
             'tradition' => 'Tari Saman',
-            'flash_info' => 'Memiliki otonomi khusus dengan menerapkan hukum syariah.',
+            'flash_info' => 'Aceh merupakan provinsi di ujung barat Indonesia yang memiliki sejarah dan budaya yang kaya. Terkenal sebagai tempat di mana Islam pertama kali masuk ke Indonesia, Aceh memiliki warisan budaya yang kuat, termasuk adat istiadat, kesenian tradisional seperti Tari Saman, serta bangunan bersejarah seperti Masjid Baiturrahman. Selain kekayaan budayanya, Aceh juga terkenal dengan keindahan alamnya yang menakjubkan, termasuk pantai-pantai yang eksotis dan lanskap pegunungan yang menawan. Provinsi ini juga memiliki kekayaan sumber daya alam seperti minyak dan gas yang berperan penting dalam perekonomiannya. Aceh juga memiliki keistimewaan dalam otonomi yang lebih luas dalam hal hukum Islam dan memiliki wilayah yang disebut sebagai wilayah dengan hukum Islam yang diterapkan secara parsial.',
             // 'more_detail' => 'More detail 1',
         ]);
 
@@ -44,12 +44,12 @@ class ProvinceSeeder extends Seeder
             'regional_house_image' => 'house1.jpg',
             'dance' => 'Tor-Tor',
             'dance_image' => 'dance1.jpg',
-            'weapon' => 'Mandau',
+            'weapon' => 'Senjata Piso Gaja Dompak',
             'weapon_image' => 'weapon1.jpg',
             'music' => 'Gondang Sabangunan',
             'music_image' => 'music1.jpg',
             'tradition' => 'Ulos',
-            'flash_info' => 'Merupakan provinsi terpadat di Pulau Sumatera.',
+            'flash_info' => 'Sumatera Utara adalah provinsi yang terletak di bagian utara Pulau Sumatera, Indonesia. Provinsi ini terkenal dengan keindahan alamnya, seperti Danau Toba yang merupakan danau vulkanik terbesar di dunia, serta Pulau Samosir di tengah danau yang kaya akan budaya Batak. Sumatera Utara juga memiliki kekayaan budaya yang beragam, terutama dalam adat istiadat suku Batak, yang meliputi kekayaan seni musik, tarian, dan rumah adat yang unik. Selain itu, provinsi ini memiliki potensi pertanian yang besar, dengan produksi kopi, kelapa sawit, dan berbagai hasil pertanian lainnya yang menjadi sumber utama pendapatan ekonomi. Medan, ibu kota Sumatera Utara, merupakan pusat perdagangan dan ekonomi yang penting di wilayah Sumatera.',
             // 'more_detail' => 'More detail 1',
         ]);
 
@@ -69,7 +69,7 @@ class ProvinceSeeder extends Seeder
             'music' => 'Gendang Karo',
             'music_image' => 'music1.jpg',
             'tradition' => 'Tari Persembahan',
-            'flash_info' => 'Terkenal dengan Festival Danau Ranau dan kekayaan budaya.',
+            'flash_info' => 'Sumatera Selatan adalah provinsi yang terletak di bagian selatan Pulau Sumatera, Indonesia. Wilayah ini kaya akan keindahan alam, seperti hutan tropis, sungai besar seperti Sungai Musi yang melintasi kota Palembang, dan pantai-pantai yang menarik. Palembang, ibu kotanya, terkenal dengan Warisan Dunia, Situs Warisan Budaya UNESCO, yaitu kompleks arkeologis Sriwijaya, serta menjadi pusat kebudayaan Melayu yang kaya akan tradisi dan seni musik, seperti tari Zapin dan tarian tradisional lainnya. Sumatera Selatan juga terkenal dengan industri pertanian yang maju, terutama produksi kelapa sawit dan karet, yang menjadi tulang punggung perekonomian provinsi ini.',
             // 'more_detail' => 'More detail 1',
         ]);
 
@@ -89,7 +89,7 @@ class ProvinceSeeder extends Seeder
             'music' => 'Saluang',
             'music_image' => 'music1.jpg',
             'tradition' => 'Randai',
-            'flash_info' => 'Terkenal dengan masakan rendang.',
+            'flash_info' => 'Sumatera Barat adalah provinsi yang terletak di bagian barat Pulau Sumatera, Indonesia. Wilayah ini terkenal karena keindahan alamnya yang menakjubkan, terutama pegunungan, danau, serta lembah yang subur. Bukittinggi, salah satu kota utamanya, memiliki panorama alam yang indah dan terkenal dengan Jam Gadang yang menjadi ikon kota tersebut. Kekayaan budaya Minangkabau sangat kental di provinsi ini, tercermin dalam seni, tradisi adat, dan rumah adat unik bernama Rumah Gadang. Selain itu, makanan khas Padang yang terkenal di seluruh Indonesia berasal dari Sumatera Barat, menampilkan kelezatan masakan tradisional Minangkabau. Provinsi ini juga memiliki potensi pariwisata yang besar, dengan destinasi populer seperti Danau Maninjau dan Ngarai Sianok yang menarik wisatawan dengan keindahan alamnya.',
             // 'more_detail' => 'More detail 1',
         ]);
 
@@ -109,7 +109,7 @@ class ProvinceSeeder extends Seeder
             'music' => 'Serunai',
             'music_image' => 'music1.jpg',
             'tradition' => 'Pantun',
-            'flash_info' => 'Memiliki keindahan alam yang masih alami.',
+            'flash_info' => 'Bengkulu adalah provinsi yang terletak di pantai barat daya Pulau Sumatera, Indonesia. Wilayah ini dikenal dengan keindahan pantai-pantainya yang eksotis, hutan tropisnya, serta sejarah kolonial yang kaya. Kota Bengkulu, ibu kotanya, memiliki jejak sejarah dari masa kolonial dengan Benteng Marlborough yang masih berdiri kokoh sebagai peninggalan Belanda. Bengkulu juga memiliki kekayaan alam yang melimpah, termasuk Taman Nasional Bukit Barisan Selatan yang menawarkan berbagai keindahan alam, dari hutan hujan tropis hingga satwa liar yang melimpah. Selain itu, Bengkulu dikenal akan produksi kopi yang terkenal, Kopi Bengkulu, yang menjadi salah satu komoditas unggulan daerah ini.',
             // 'more_detail' => 'More detail 1',
         ]);
 
@@ -120,7 +120,7 @@ class ProvinceSeeder extends Seeder
             'island' => 'Terletak di Pulau Sumatera.',
             'population' => 1000000,
             'ethnic' => 'Minangkabau',
-            'regional_house' => 'Rumah Lancang Kuning',
+            'regional_house' => 'Rumah Melayu Atap Lontik',
             'regional_house_image' => 'house1.jpg',
             'dance' => 'Tari Zapin',
             'dance_image' => 'dance1.jpg',
@@ -129,7 +129,7 @@ class ProvinceSeeder extends Seeder
             'music' => 'Talempong',
             'music_image' => 'music1.jpg',
             'tradition' => 'Tari Zapin',
-            'flash_info' => 'Salah satu produsen minyak dan gas terbesar di Indonesia.',
+            'flash_info' => 'Riau adalah provinsi yang terletak di bagian tengah Pulau Sumatera, Indonesia, dikenal sebagai salah satu pusat industri dan perdagangan yang penting di Indonesia. Ibukotanya adalah Pekanbaru. Wilayah ini memiliki kekayaan alam yang melimpah, terutama sumber daya alam seperti minyak bumi, gas alam, dan kelapa sawit yang menjadi tulang punggung ekonomi provinsi ini. Selain itu, Riau memiliki keindahan alam yang menarik, termasuk Taman Nasional Bukit Tigapuluh yang melindungi ekosistem hutan hujan serta berbagai suku dan budaya seperti Melayu dan Minangkabau yang turut memperkaya kekayaan budaya provinsi ini.',
             // 'more_detail' => 'More detail 1',
         ]);
 
@@ -140,16 +140,16 @@ class ProvinceSeeder extends Seeder
             'island' => 'Terletak di Pulau Sumatera.',
             'population' => 1000000,
             'ethnic' => 'Malay',
-            'regional_house' => 'Rumah Melayu Riau',
+            'regional_house' => 'Rumah Lipat Pandan',
             'regional_house_image' => 'house1.jpg',
             'dance' => 'Tari Enggang',
             'dance_image' => 'dance1.jpg',
-            'weapon' => 'Keris Kepulauan Riau',
+            'weapon' => 'Klewang',
             'weapon_image' => 'weapon1.jpg',
             'music' => 'Kompang',
             'music_image' => 'music1.jpg',
             'tradition' => 'Makanan Laut',
-            'flash_info' => 'Terdiri dari banyak pulau di sekitar Sumatera dan Singapura.',
+            'flash_info' => 'Kepulauan Riau merupakan provinsi kepulauan yang terletak di sebelah timur laut Pulau Sumatera, Indonesia. Provinsi ini terdiri dari berbagai pulau kecil dan memiliki kekayaan alam yang luar biasa, terutama dari segi keindahan pantai, kehidupan laut yang kaya, serta pulau-pulau cantik seperti Pulau Bintan dan Pulau Batam yang menjadi tujuan wisata populer. Pulau Batam juga terkenal sebagai zona industri dan perdagangan bebas yang penting di Indonesia, dengan pertumbuhan ekonomi yang pesat dan menjadi pusat pariwisata, terutama bagi wisatawan dari Singapura yang berdekatan. Kepulauan Riau juga dikenal akan keragaman budaya dan tradisi, menggabungkan berbagai etnis dan budaya yang menjadi aset berharga provinsi ini.',
             // 'more_detail' => 'More detail 1',
         ]);
 
@@ -160,16 +160,16 @@ class ProvinceSeeder extends Seeder
             'island' => 'Terletak di Pulau Sumatera.',
             'population' => 1000000,
             'ethnic' => 'Jambi',
-            'regional_house' => 'Rumah Jambi',
+            'regional_house' => 'Rumah Panggung Kajang Lako',
             'regional_house_image' => 'house1.jpg',
             'dance' => 'Tari Tanggai',
             'dance_image' => 'dance1.jpg',
-            'weapon' => 'Rencong',
+            'weapon' => 'Badik Tumbuk Lada',
             'weapon_image' => 'weapon1.jpg',
             'music' => 'Gendang Melayu',
             'music_image' => 'music1.jpg',
             'tradition' => 'Pentas Wayang Kulit',
-            'flash_info' => 'Terkenal dengan keindahan Taman Nasional Kerinci Seblat.',
+            'flash_info' => 'Jambi adalah provinsi yang terletak di bagian tengah Pulau Sumatera, Indonesia. Wilayah ini terkenal dengan kekayaan alamnya, terutama keindahan hutan hujan tropisnya dan sumber daya alam seperti minyak bumi, gas alam, dan kayu yang menjadi tulang punggung ekonominya. Provinsi ini memiliki Taman Nasional Kerinci Seblat yang merupakan salah satu taman nasional terbesar di Indonesia dan merupakan rumah bagi berbagai flora dan fauna yang unik. Selain itu, Jambi memiliki warisan budaya, seperti kompleks candi kuno Candi Muara Jambi yang menjadi saksi sejarah peradaban masa lampau, serta tradisi masyarakatnya yang kaya akan seni dan budaya lokal.',
             // 'more_detail' => 'More detail 1',
         ]);
 
@@ -180,16 +180,16 @@ class ProvinceSeeder extends Seeder
             'island' => 'Terletak di Pulau Sumatera.',
             'population' => 1000000,
             'ethnic' => 'Lampung',
-            'regional_house' => 'Pangeran Haji Residence',
+            'regional_house' => 'Nuwo Sesat',
             'regional_house_image' => 'house1.jpg',
             'dance' => 'Tari Gending Sriwijaya',
             'dance_image' => 'dance1.jpg',
-            'weapon' => 'Pedang Tapis',
+            'weapon' => 'Terapang',
             'weapon_image' => 'weapon1.jpg',
-            'music' => 'Saronen',
+            'music' => 'Gamolan',
             'music_image' => 'music1.jpg',
             'tradition' => 'Upacara Adat Pepadun',
-            'flash_info' => 'Dikenal dengan Taman Nasional Way Kambas dan Pantai Kiluan.',
+            'flash_info' => 'Sepertinya ada ketidakjelasan dalam pertanyaan. Apakah maksudnya adalah Provinsi Lampung di Indonesia? Jika ya, Lampung adalah provinsi yang terletak di ujung selatan Pulau Sumatera. Wilayah ini terkenal dengan keindahan alamnya, terutama pantai-pantai eksotis seperti Pantai Pahawang dan Pantai Tanjung Setia yang menarik bagi para penggemar aktivitas laut seperti menyelam dan surfing. Lampung juga dikenal akan kekayaan pertaniannya, khususnya produksi kopi robusta dan lada yang menjadi komoditas utama di sini. Selain itu, Lampung memiliki kebudayaan yang kaya, ditandai dengan berbagai tradisi adat, tarian, dan seni musik yang unik seperti Tari Gending Sriwijaya yang khas.',
             // 'more_detail' => 'More detail 1',
         ]);
 
@@ -200,16 +200,16 @@ class ProvinceSeeder extends Seeder
             'island' => 'Terletak di Pulau Sumatera.',
             'population' => 1000000,
             'ethnic' => 'Belitung',
-            'regional_house' => 'Rumah Panggung Melayu',
+            'regional_house' => 'Rumah Rakit Limas',
             'regional_house_image' => 'house1.jpg',
             'dance' => 'Tari Piring Belitung',
             'dance_image' => 'dance1.jpg',
             'weapon' => 'Keris Bangka',
             'weapon_image' => 'weapon1.jpg',
-            'music' => 'Serunai',
+            'music' => 'Gitar Gambus',
             'music_image' => 'music1.jpg',
             'tradition' => 'Festival Laskar Pelangi',
-            'flash_info' => 'Terdiri dari pulau-pulau di sekitar Sumatera, terkenal dengan tambang timah.',
+            'flash_info' => 'Provinsi Kepulauan Bangka Belitung terletak di sebelah timur Sumatera, Indonesia. Provinsi ini terdiri dari dua pulau utama, yaitu Bangka dan Belitung, serta pulau-pulau kecil di sekitarnya. Dikenal karena keindahan alamnya, terutama pantai-pantai berpasir putih yang memikat seperti Pantai Tanjung Tinggi dan Pantai Parai Tenggiri yang menarik wisatawan. Selain itu, Bangka Belitung juga merupakan daerah tambang timah yang signifikan bagi perekonomian Indonesia. Kehidupan laut di sekitar pulau-pulau ini juga kaya akan kehidupan biota laut yang menarik, membuatnya menjadi tempat yang populer bagi para penyelam. Kepulauan ini juga memiliki kebudayaan lokal yang khas, yang tercermin dalam tradisi, seni, dan budaya Melayu yang unik di sana.',
             // 'more_detail' => 'More detail 1',
         ]);
 
@@ -222,14 +222,14 @@ class ProvinceSeeder extends Seeder
             'ethnic' => 'Dayak',
             'regional_house' => 'Rumah Betang',
             'regional_house_image' => 'house1.jpg',
-            'dance' => 'Tari Miring',
+            'dance' => 'Tari Ajat Temuai Datai',
             'dance_image' => 'dance1.jpg',
             'weapon' => 'Mandau',
             'weapon_image' => 'weapon1.jpg',
-            'music' => 'Serunai',
+            'music' => 'Sape',
             'music_image' => 'music1.jpg',
             'tradition' => 'Tarian Enggang',
-            'flash_info' => 'Merupakan provinsi di Pulau Kalimantan bagian barat.',
+            'flash_info' => 'Kalimantan Barat adalah provinsi yang terletak di pulau Kalimantan, Indonesia. Wilayah ini terkenal dengan keindahan alamnya, khususnya hutan hujan tropisnya dan sungai-sungai besar seperti Sungai Kapuas, sungai terpanjang di Indonesia. Provinsi ini memiliki potensi sumber daya alam yang besar, termasuk hasil tambang seperti emas, batubara, serta kekayaan flora dan fauna yang melimpah. Selain itu, Kalimantan Barat kaya akan kebudayaan Dayak, suku asli yang memiliki keunikan dalam tradisi, tarian, seni ukir, dan rumah adat. Kota Pontianak, ibu kotanya, memiliki daya tarik seperti Tugu Khatulistiwa yang menandai garis khatulistiwa di Indonesia serta merupakan simbol kota yang menarik bagi wisatawan.',
             // 'more_detail' => 'More detail 1',
         ]);
 
@@ -240,7 +240,7 @@ class ProvinceSeeder extends Seeder
             'island' => 'Terletak di Pulau Kalimantan.',
             'population' => 1000000,
             'ethnic' => 'Dayak',
-            'regional_house' => 'Rumah Kutai',
+            'regional_house' => 'Rumah Lamin',
             'regional_house_image' => 'house1.jpg',
             'dance' => 'Tari Enggang',
             'dance_image' => 'dance1.jpg',
@@ -249,7 +249,7 @@ class ProvinceSeeder extends Seeder
             'music' => 'Sape',
             'music_image' => 'music1.jpg',
             'tradition' => 'Tari Maengket',
-            'flash_info' => 'Daerah pertambangan dan pengolahan minyak terbesar di Indonesia.',
+            'flash_info' => 'Kalimantan Timur adalah provinsi yang terletak di bagian timur Pulau Kalimantan, Indonesia. Wilayah ini kaya akan keindahan alam, termasuk hutan hujan tropisnya yang luas, gunung-gunung, serta kekayaan alam seperti tambang batu bara dan minyak bumi yang menjadi pendorong ekonomi utama provinsi ini. Taman Nasional Kutai merupakan salah satu dari beberapa kawasan pelestarian alam yang menampilkan keanekaragaman hayati yang melimpah. Kalimantan Timur juga kaya akan kebudayaan suku Dayak dan Kutai yang terwujud dalam tradisi, seni, dan adat istiadat unik. Kota Samarinda, ibu kotanya, memiliki daya tarik seperti Jembatan Mahakam yang memperlihatkan keindahan sungai Mahakam serta menjadi ikon kota yang menarik perhatian wisatawan.',
             // 'more_detail' => 'More detail 1',
         ]);
 
@@ -266,10 +266,10 @@ class ProvinceSeeder extends Seeder
             'dance_image' => 'dance1.jpg',
             'weapon' => 'Mandau',
             'weapon_image' => 'weapon1.jpg',
-            'music' => 'Gendang Banjar',
+            'music' => 'Kalang Kupak',
             'music_image' => 'music1.jpg',
             'tradition' => 'Tari Zapin Banjar',
-            'flash_info' => 'Terletak di Pulau Kalimantan bagian selatan.',
+            'flash_info' => 'Kalimantan Timur adalah provinsi yang terletak di bagian timur Pulau Kalimantan, Indonesia. Wilayah ini kaya akan keindahan alam, termasuk hutan hujan tropisnya yang luas, gunung-gunung, serta kekayaan alam seperti tambang batu bara dan minyak bumi yang menjadi pendorong ekonomi utama provinsi ini. Taman Nasional Kutai merupakan salah satu dari beberapa kawasan pelestarian alam yang menampilkan keanekaragaman hayati yang melimpah. Kalimantan Timur juga kaya akan kebudayaan suku Dayak dan Kutai yang terwujud dalam tradisi, seni, dan adat istiadat unik. Kota Samarinda, ibu kotanya, memiliki daya tarik seperti Jembatan Mahakam yang memperlihatkan keindahan sungai Mahakam serta menjadi ikon kota yang menarik perhatian wisatawan.',
             // 'more_detail' => 'More detail 1',
         ]);
 
@@ -286,10 +286,10 @@ class ProvinceSeeder extends Seeder
             'dance_image' => 'dance1.jpg',
             'weapon' => 'Mandau',
             'weapon_image' => 'weapon1.jpg',
-            'music' => 'Gendang Bujang Gadis',
+            'music' => 'Kecapi',
             'music_image' => 'music1.jpg',
             'tradition' => 'Pesta Perahu Hias',
-            'flash_info' => 'Terletak di tengah Pulau Kalimantan.',
+            'flash_info' => 'Kalimantan Tengah adalah provinsi yang terletak di bagian tengah Pulau Kalimantan, Indonesia. Wilayah ini kaya akan keindahan alamnya, terutama hutan hujan tropis, sungai-sungai besar seperti Sungai Kahayan, serta danau-danau yang mempesona seperti Danau Tahai dan Danau Sembuluh. Taman Nasional Tanjung Puting terkenal dengan program pelestarian orangutan dan keanekaragaman hayati yang melimpah. Provinsi ini juga memiliki potensi sumber daya alam yang besar, terutama dalam sektor pertanian dan pertambangan. Kebudayaan suku Dayak mendominasi di sini, tercermin dalam tradisi, seni, dan adat istiadat yang kaya akan warisan leluhur. Palangkaraya, ibu kotanya, memiliki daya tarik budaya dan alam yang menjadi tujuan wisata yang menarik.',
             // 'more_detail' => 'More detail 1',
         ]);
 
@@ -306,10 +306,10 @@ class ProvinceSeeder extends Seeder
             'dance_image' => 'dance1.jpg',
             'weapon' => 'Mandau',
             'weapon_image' => 'weapon1.jpg',
-            'music' => 'Serunai',
+            'music' => 'Jatung Utang',
             'music_image' => 'music1.jpg',
             'tradition' => 'Pesta Padusan',
-            'flash_info' => 'Provinsi terbaru di Indonesia, terbentuk pada tahun 2012.',
+            'flash_info' => 'Kalimantan Utara adalah provinsi yang terletak di bagian utara Pulau Kalimantan, Indonesia. Provinsi ini adalah pemekaran dari Kalimantan Timur dan memiliki keindahan alam yang menakjubkan, terutama hutan-hutan yang masih alami dan kekayaan biodiversitasnya. Daerah ini dikenal karena taman nasionalnya, seperti Taman Nasional Kayan Mentarang yang melindungi keanekaragaman hayati yang kaya. Kehidupan suku Dayak dan suku-suku lainnya memperkaya warisan budaya di provinsi ini, tercermin dalam tradisi, seni, dan rumah adat yang unik. Sektor pertambangan dan kelapa sawit adalah beberapa sumber utama perekonomian, sementara daerah ini juga memiliki potensi pariwisata yang besar karena keindahan alamnya yang masih alami. Ibu kota provinsi ini adalah Tanjung Selor.',
             // 'more_detail' => 'More detail 1',
         ]);
 
@@ -322,14 +322,14 @@ class ProvinceSeeder extends Seeder
             'ethnic' => 'Sundanese',
             'regional_house' => 'Rumah Badui',
             'regional_house_image' => 'house1.jpg',
-            'dance' => 'Tari Serang',
+            'dance' => 'Tari Saman',
             'dance_image' => 'dance1.jpg',
-            'weapon' => 'Badik',
+            'weapon' => 'Golok Banten',
             'weapon_image' => 'weapon1.jpg',
-            'music' => 'Kulintang Sunda',
+            'music' => 'Angklung Buhun',
             'music_image' => 'music1.jpg',
             'tradition' => 'Serentaun',
-            'flash_info' => 'Terletak di sebelah barat Jakarta, di Pulau Jawa.',
+            'flash_info' => 'Sepertinya terdapat kesalahan ketik dalam permintaan informasi. Mungkin maksudnya adalah Provinsi Banten? Banten adalah provinsi di bagian barat Pulau Jawa, Indonesia. Wilayah ini terkenal dengan sejarahnya yang kaya, terutama sebagai pusat pemerintahan Kesultanan Banten pada masa lampau. Provinsi ini memiliki tempat bersejarah seperti Benteng Speelwijk dan Benteng Surosowan yang masih menggambarkan warisan budaya dan sejarahnya. Selain itu, Banten memiliki pantai-pantai yang indah seperti Pantai Anyer yang menjadi tujuan liburan populer bagi wisatawan lokal dan internasional. Serang, ibu kotanya, juga menawarkan berbagai atraksi budaya dan sejarah yang menarik untuk dieksplorasi.',
             // 'more_detail' => 'More detail 1',
         ]);
 
@@ -346,10 +346,10 @@ class ProvinceSeeder extends Seeder
             'dance_image' => 'dance1.jpg',
             'weapon' => 'Golok',
             'weapon_image' => 'weapon1.jpg',
-            'music' => 'Tanbur',
+            'music' => 'Ketimpring',
             'music_image' => 'music1.jpg',
             'tradition' => 'Ondel-ondel',
-            'flash_info' => 'Ibukota negara dan pusat pemerintahan di Indonesia.',
+            'flash_info' => 'DKI Jakarta adalah provinsi yang terletak di Pulau Jawa, Indonesia, dan berfungsi juga sebagai ibu kota negara. Sebagai pusat politik, ekonomi, dan budaya, Jakarta adalah kawasan metropolitan yang padat penduduk dan merupakan salah satu kota terbesar di dunia. Kota ini terkenal dengan pusat-pusat perbelanjaan modern, kehidupan malam yang aktif, dan berbagai atraksi budaya seperti Museum Nasional dan Taman Mini Indonesia Indah yang menampilkan keanekaragaman budaya Indonesia. Jakarta juga memiliki beragam kuliner khas Indonesia yang terkenal, dari makanan jalanan hingga restoran mewah. Meskipun menjadi pusat utama kegiatan ekonomi dan administratif, Jakarta juga menghadapi tantangan seperti kemacetan lalu lintas dan masalah-masalah lingkungan akibat urbanisasi yang cepat.',
             // 'more_detail' => 'More detail 1',
         ]);
 
@@ -364,12 +364,12 @@ class ProvinceSeeder extends Seeder
             'regional_house_image' => 'house1.jpg',
             'dance' => 'Jaipongan',
             'dance_image' => 'dance1.jpg',
-            'weapon' => 'Badik',
+            'weapon' => 'Badik Cangkingan',
             'weapon_image' => 'weapon1.jpg',
             'music' => 'Angklung',
             'music_image' => 'music1.jpg',
             'tradition' => 'Wayang Golek',
-            'flash_info' => 'Pusat pendidikan dan kebudayaan.',
+            'flash_info' => 'Jawa Barat adalah provinsi yang terletak di bagian barat Pulau Jawa, Indonesia. Wilayah ini kaya akan keindahan alam, mulai dari gunung, lembah, hingga pantai-pantai yang menarik. Provinsi ini memiliki Gunung Tangkuban Perahu dan Gunung Papandayan yang sering dijadikan destinasi wisata pendakian. Selain itu, Jawa Barat kaya akan kebudayaan Sunda, tercermin dalam seni, musik, tarian, dan tradisi adat yang unik. Bandung, ibu kotanya, terkenal dengan kehidupan seni dan kreatifnya, pusat mode, serta kulinernya yang beragam. Kawasan sekitar Bandung juga terkenal dengan kebun tehnya yang indah seperti di daerah Ciwidey. Jawa Barat juga memiliki warisan bersejarah seperti Candi Cangkuang dan Situs Gunung Padang yang menarik untuk dijelajahi.',
             // 'more_detail' => 'More detail 1',
         ]);
 
@@ -386,10 +386,10 @@ class ProvinceSeeder extends Seeder
             'dance_image' => 'dance1.jpg',
             'weapon' => 'Keris',
             'weapon_image' => 'weapon1.jpg',
-            'music' => 'Gamelan Jawa=',
+            'music' => 'Gamelan Jawa',
             'music_image' => 'music1.jpg',
             'tradition' => 'Tari Gambyong',
-            'flash_info' => 'Terletak di bagian tengah Pulau Jawa.',
+            'flash_info' => 'Jawa Barat adalah provinsi yang terletak di bagian barat Pulau Jawa, Indonesia. Wilayah ini kaya akan keindahan alam, mulai dari gunung, lembah, hingga pantai-pantai yang menarik. Provinsi ini memiliki Gunung Tangkuban Perahu dan Gunung Papandayan yang sering dijadikan destinasi wisata pendakian. Selain itu, Jawa Barat kaya akan kebudayaan Sunda, tercermin dalam seni, musik, tarian, dan tradisi adat yang unik. Bandung, ibu kotanya, terkenal dengan kehidupan seni dan kreatifnya, pusat mode, serta kulinernya yang beragam. Kawasan sekitar Bandung juga terkenal dengan kebun tehnya yang indah seperti di daerah Ciwidey. Jawa Barat juga memiliki warisan bersejarah seperti Candi Cangkuang dan Situs Gunung Padang yang menarik untuk dijelajahi.',
             // 'more_detail' => 'More detail 1',
         ]);
 
@@ -409,7 +409,7 @@ class ProvinceSeeder extends Seeder
             'music' => 'Gamelan Jogja',
             'music_image' => 'music1.jpg',
             'tradition' => 'Kraton Yogyakarta',
-            'flash_info' => 'Daerah istimewa dengan kebudayaan dan sejarah yang kaya.',
+            'flash_info' => 'Yogyakarta, atau sering disingkat sebagai Jogja, adalah sebuah kota yang juga menjadi ibu kota dari Daerah Istimewa Yogyakarta (DIY), sebuah provinsi di Pulau Jawa, Indonesia. Kota ini terkenal dengan kebudayaan, sejarah, dan keindahan alamnya. Keraton Yogyakarta, istana kerajaan tradisional, menjadi simbol penting dari kekayaan budaya dan sejarah kota ini. Tempat-tempat wisata terkenal seperti Candi Borobudur, Candi Prambanan, dan Keraton Ratu Boko menjadi daya tarik utama bagi wisatawan domestik maupun internasional. Selain itu, Jogja juga dikenal dengan seni wayang kulit, seni ukir, batik, serta kuliner khasnya yang lezat seperti gudeg dan sate klathak. Jogja juga menjadi pusat pendidikan dan seni di Indonesia dengan berbagai universitas dan kegiatan budaya yang beragam.',
             // 'more_detail' => 'More detail 1',
         ]);
 
@@ -429,7 +429,7 @@ class ProvinceSeeder extends Seeder
             'music' => 'Gamelan Jawa Timur',
             'music_image' => 'music1.jpg',
             'tradition' => 'Reog Ponorogo',
-            'flash_info' => 'Pusat industri dan perdagangan.',
+            'flash_info' => 'Jawa Timur adalah provinsi yang terletak di bagian timur Pulau Jawa, Indonesia. Wilayah ini kaya akan keindahan alam dan warisan budaya yang luar biasa. Provinsi ini memiliki beberapa destinasi wisata terkenal, seperti Gunung Bromo, sebuah gunung berapi yang menjadi tujuan utama pendaki dan menawarkan pemandangan matahari terbit yang menakjubkan. Selain itu, Jawa Timur juga memiliki Candi Penataran, kompleks candi Hindu terbesar di Jawa Timur yang memamerkan arsitektur dan relief kuno yang mengagumkan. Kota Surabaya, ibu kotanya, adalah pusat ekonomi dan perdagangan utama di wilayah ini, yang juga memiliki berbagai atraksi budaya dan sejarah seperti Monumen Kapal Selam dan Pasar Atum. Jawa Timur juga terkenal dengan kesenian tradisionalnya seperti tari Reog Ponorogo dan wayang kulit.',
             // 'more_detail' => 'More detail 1',
         ]);
 
@@ -440,7 +440,7 @@ class ProvinceSeeder extends Seeder
             'island' => 'Terletak di Pulau Bali.',
             'population' => 1000000,
             'ethnic' => 'Balinese',
-            'regional_house' => 'Rumah Bale Bengong',
+            'regional_house' => 'Bale Sekapat',
             'regional_house_image' => 'house1.jpg',
             'dance' => 'Tari Legong',
             'dance_image' => 'dance1.jpg',
@@ -449,7 +449,7 @@ class ProvinceSeeder extends Seeder
             'music' => 'Gamelan Bali',
             'music_image' => 'music1.jpg',
             'tradition' => 'Upacara Melasti',
-            'flash_info' => 'Terkenal dengan keindahan alam, seni, dan kebudayaannya.',
+            'flash_info' => 'Bali adalah sebuah pulau dan provinsi di Indonesia yang terkenal dengan keindahan alamnya, budaya yang kaya, dan kehidupan pantainya yang menakjubkan. Pulau ini dikenal dengan pemandangan sawah terasering yang indah, gunung-gunung yang megah, serta pantai-pantai berpasir putih seperti Kuta, Seminyak, dan Sanur yang menjadi daya tarik wisatawan dari seluruh dunia. Budaya Hindu-Bali yang kuat tercermin dalam upacara-upacara keagamaan, tarian, musik tradisional, dan seni patung serta lukisan yang mendunia. Ubud, di pusat pulau, terkenal sebagai pusat seni dan budaya Bali dengan galeri seni, pertunjukan tari, dan mata pelajaran yoga yang populer. Bali juga menawarkan berbagai aktivitas seperti selancar, menyelam, dan trekking gunung yang mengesankan, menjadikannya destinasi liburan yang lengkap.',
             // 'more_detail' => 'More detail 1',
         ]);
 
@@ -469,7 +469,7 @@ class ProvinceSeeder extends Seeder
             'music' => 'Sasando',
             'music_image' => 'music1.jpg',
             'tradition' => 'Tenun Ikat',
-            'flash_info' => 'Terletak di timur Pulau Timor.',
+            'flash_info' => 'Nusa Tenggara Timur (NTT) adalah provinsi yang terletak di bagian timur Indonesia, terdiri dari kepulauan yang menakjubkan. Provinsi ini kaya akan keanekaragaman budaya, tradisi, dan keindahan alamnya. Salah satu daya tarik utamanya adalah Taman Nasional Kelimutu, yang terkenal dengan danau-danau vulkaniknya yang memiliki warna air yang berbeda-beda. NTT juga memiliki pantai-pantai yang indah seperti Pantai Pink di Pulau Komodo dan Pantai Koka di Flores yang menawarkan pemandangan laut yang spektakuler. Daerah ini kaya akan tradisi budaya yang unik, dengan tarian-tarian tradisional seperti tarian Caci di Manggarai dan upacara adat seperti Wae Rebo di desa adat setempat. Selain itu, provinsi ini juga terkenal dengan keberadaan Taman Nasional Komodo, rumah bagi hewan endemik langka, Komodo, dan menarik wisatawan yang ingin melihat reptil raksasa ini secara langsung.',
             // 'more_detail' => 'More detail 1',
         ]);
 
@@ -489,7 +489,7 @@ class ProvinceSeeder extends Seeder
             'music' => 'Gendang Beleq',
             'music_image' => 'music1.jpg',
             'tradition' => 'Gendang Beleq',
-            'flash_info' => 'Terletak di barat Pulau Timor.',
+            'flash_info' => 'Nusa Tenggara Barat (NTB) adalah provinsi yang terletak di Pulau Sumbawa dan sebagian Pulau Lombok, Indonesia. Wilayah ini terkenal dengan keindahan alamnya, termasuk pantai-pantai eksotis, gunung berapi, dan kebudayaan yang kaya. Pulau Lombok, salah satu tujuan utama di NTB, memiliki Pantai Kuta yang tenang dan indah, serta Gunung Rinjani yang menarik bagi pendaki gunung. Gili Islands, dengan pantainya yang indah dan aktivitas menyelam yang menakjubkan, juga menjadi daya tarik utama di wilayah ini. Budaya Sasak yang kuat tercermin dalam seni, kerajinan tangan, dan tarian-tarian tradisional seperti tarian perang Merak Sasak. NTB juga terkenal dengan seni ukir kayu dan anyaman serta kerajinan tangan lainnya yang unik. Mataram, ibu kotanya, menawarkan tempat-tempat sejarah, pasar tradisional, dan berbagai atraksi budaya.',
             // 'more_detail' => 'More detail 1',
         ]);
 
@@ -500,16 +500,16 @@ class ProvinceSeeder extends Seeder
             'island' => 'Terletak di Pulau Sulawesi.',
             'population' => 1000000,
             'ethnic' => 'Gorontalo',
-            'regional_house' => 'Rumah Gorontalo',
+            'regional_house' => 'Rumah Dulohupa',
             'regional_house_image' => 'house1.jpg',
-            'dance' => 'Tari Dabuyou',
+            'dance' => 'Tidi Lo Polopalo',
             'dance_image' => 'dance1.jpg',
-            'weapon' => 'Sundangan',
+            'weapon' => 'Kalumbi',
             'weapon_image' => 'weapon1.jpg',
-            'music' => 'Kolintang Gorontalo',
+            'music' => 'gambusi',
             'music_image' => 'music1.jpg',
             'tradition' => 'Maipa Deapati',
-            'flash_info' => 'Terletak di utara Sulawesi.',
+            'flash_info' => 'Gorontalo adalah provinsi yang terletak di bagian utara Pulau Sulawesi, Indonesia. Wilayah ini dikenal dengan keindahan alamnya yang menakjubkan, termasuk pantai-pantai eksotis dan keanekaragaman bawah laut yang luar biasa. Salah satu daya tarik utamanya adalah Taman Nasional Kepulauan Togean, yang menawarkan keindahan laut yang luar biasa dengan terumbu karang yang indah dan kehidupan laut yang kaya. Gorontalo juga terkenal dengan kain tenunnya yang unik dan kerajinan tangan lainnya yang menggambarkan warisan budaya setempat. Kota Gorontalo, ibu kotanya, memiliki warisan sejarah dan budaya yang menarik seperti Benteng Otanaha dan Masjid Baiturrahman. Selain itu, masakan khas Gorontalo yang lezat seperti "ilabulo" (hidangan ikan bakar bumbu khas Gorontalo) merupakan daya tarik kuliner yang tak terlupakan di wilayah ini.',
             // 'more_detail' => 'More detail 1',
         ]);
 
@@ -526,10 +526,10 @@ class ProvinceSeeder extends Seeder
             'dance_image' => 'dance1.jpg',
             'weapon' => 'Sundang',
             'weapon_image' => 'weapon1.jpg',
-            'music' => 'Kolintang Sulawesi Barat',
+            'music' => 'Pakeke',
             'music_image' => 'music1.jpg',
             'tradition' => 'Upacara Adat Pongko',
-            'flash_info' => 'Terletak di barat daya Sulawesi.',
+            'flash_info' => 'Sulawesi Barat adalah provinsi yang terletak di bagian barat Pulau Sulawesi, Indonesia. Wilayah ini terkenal dengan keindahan alamnya yang menakjubkan, terutama pemandangan pegunungan, pantai-pantai yang eksotis, dan kekayaan budayanya. Salah satu daya tarik utamanya adalah Taman Nasional Lore Lindu, yang memamerkan keanekaragaman hayati dan satwa endemik seperti tarsius dan babi rusa sulawesi. Sulawesi Barat juga memiliki Pantai Manakarra yang indah di kota Polewali dan Pantai Mandar di Pantai Barat yang menarik bagi penggemar pantai. Provinsi ini juga terkenal dengan kekayaan budayanya, termasuk seni ukir, seni tari, dan upacara adat yang khas dari suku-suku setempat seperti suku Mandar dan suku Bugis. Ibu kota provinsi ini adalah Mamuju.',
             // 'more_detail' => 'More detail 1',
         ]);
 
@@ -542,14 +542,14 @@ class ProvinceSeeder extends Seeder
             'ethnic' => 'Bugis',
             'regional_house' => 'Rumah Adat Kulawi',
             'regional_house_image' => 'house1.jpg',
-            'dance' => 'Tari Tinulele',
+            'dance' => 'Tari Dopalak',
             'dance_image' => 'dance1.jpg',
-            'weapon' => 'Badik',
+            'weapon' => 'Guma',
             'weapon_image' => 'weapon1.jpg',
-            'music' => 'Kolintang Sulawesi Tengah',
+            'music' => 'Ganda',
             'music_image' => 'music1.jpg',
             'tradition' => 'Upacara Adat Ollon',
-            'flash_info' => 'Terletak di tengah Sulawesi.',
+            'flash_info' => 'Sulawesi Tengah adalah provinsi yang terletak di bagian tengah Pulau Sulawesi, Indonesia. Wilayah ini memiliki keindahan alam yang memukau, termasuk Taman Nasional Lore Lindu yang menjadi rumah bagi keanekaragaman hayati yang kaya, serta Danau Poso yang indah. Di samping keindahan alamnya, provinsi ini juga kaya akan warisan budaya yang unik, seperti seni tari Ma\'gellu dari suku Saluan dan seni ukir Kayu Putih yang memukau. Palu, ibu kotanya, merupakan pusat ekonomi, pendidikan, dan budaya di Sulawesi Tengah. Provinsi ini juga memiliki banyak suku dan etnis yang berbeda, menjadikannya kawasan yang kaya akan keragaman budaya.',
             // 'more_detail' => 'More detail 1',
         ]);
 
@@ -560,7 +560,7 @@ class ProvinceSeeder extends Seeder
             'island' => 'Terletak di Pulau Sulawesi.',
             'population' => 1000000,
             'ethnic' => 'Minahasa',
-            'regional_house' => 'Rumah Manado',
+            'regional_house' => 'Rumah Walewangko',
             'regional_house_image' => 'house1.jpg',
             'dance' => 'Tari Kabasaran',
             'dance_image' => 'dance1.jpg',
@@ -569,7 +569,7 @@ class ProvinceSeeder extends Seeder
             'music' => 'Kolintang Sulawesi Utara',
             'music_image' => 'music1.jpg',
             'tradition' => 'Makanan Cakalang Pampis',
-            'flash_info' => 'Terletak di utara Sulawesi.',
+            'flash_info' => 'Sulawesi Utara adalah provinsi yang terletak di bagian utara Pulau Sulawesi, Indonesia. Wilayah ini dikenal dengan keindahan alamnya yang menakjubkan, terutama pemandangan lautnya yang memukau dan keanekaragaman hayati bawah laut yang luar biasa. Salah satu daya tarik utamanya adalah Taman Nasional Bunaken yang terkenal dengan keindahan terumbu karang dan kehidupan bawah lautnya yang kaya. Selain itu, Sulawesi Utara juga memiliki Gunung Klabat yang menarik bagi para pendaki gunung. Manado, ibu kotanya, adalah pusat ekonomi dan pusat budaya yang penting di wilayah ini. Provinsi ini juga kaya akan budaya yang beragam, tercermin dalam seni tari, musik, dan adat istiadat dari suku-suku seperti suku Minahasa dan suku Bolaang Mongondow.',
             // 'more_detail' => 'More detail 1',
         ]);
 
@@ -589,7 +589,7 @@ class ProvinceSeeder extends Seeder
             'music' => 'Kolintang Sulawesi Tenggara',
             'music_image' => 'music1.jpg',
             'tradition' => 'Upacara Adat Tolaki',
-            'flash_info' => 'Terletak di tenggara Sulawesi.',
+            'flash_info' => 'Sulawesi Tenggara adalah provinsi yang terletak di bagian tenggara Pulau Sulawesi, Indonesia. Wilayah ini dikenal dengan keindahan alamnya yang memikat, terutama pantai-pantai eksotis, pulau-pulau cantik, dan kekayaan bawah lautnya yang luar biasa. Salah satu daya tarik utamanya adalah Taman Nasional Wakatobi yang terkenal dengan keanekaragaman biota lautnya yang mengagumkan dan merupakan surga bagi penyelam. Provinsi ini juga memiliki berbagai pulau indah seperti Pulau Buton dan Pulau Muna yang menawarkan pemandangan alam yang menakjubkan. Kendari, ibu kotanya, adalah pusat kegiatan ekonomi, pendidikan, dan administratif di wilayah ini. Sulawesi Tenggara juga kaya akan kebudayaan tradisional, seperti seni tari, musik, dan adat istiadat dari suku-suku setempat seperti suku Tolaki dan suku Muna.',
             // 'more_detail' => 'More detail 1',
         ]);
 
@@ -604,12 +604,12 @@ class ProvinceSeeder extends Seeder
             'regional_house_image' => 'house1.jpg',
             'dance' => 'Tari Ma\'gellu',
             'dance_image' => 'dance1.jpg',
-            'weapon' => 'La Galigo',
+            'weapon' => 'Badik',
             'weapon_image' => 'weapon1.jpg',
             'music' => 'Gendang Makassar',
             'music_image' => 'music1.jpg',
             'tradition' => 'Upacara Adat Mappacci',
-            'flash_info' => 'Merupakan provinsi terpadat di Sulawesi.',
+            'flash_info' => 'Sulawesi Selatan adalah provinsi yang terletak di bagian selatan Pulau Sulawesi, Indonesia. Wilayah ini kaya akan keindahan alam, budaya, dan sejarah yang menarik. Salah satu daya tarik utamanya adalah Taman Nasional Bantimurung-Bulusaraung, yang menampilkan gua-gua indah, air terjun spektakuler, dan keanekaragaman hayati yang kaya. Selain itu, pantai-pantai seperti Pantai Losari di Makassar menawarkan pemandangan laut yang menakjubkan. Provinsi ini juga memiliki berbagai situs sejarah seperti benteng-benteng peninggalan masa kolonial Belanda dan kerajaan-kerajaan lama, serta tempat-tempat suci seperti Makam Sultan Hasanuddin. Makassar, ibu kotanya, adalah pusat ekonomi dan budaya yang penting di wilayah ini. Sulawesi Selatan juga kaya akan warisan budaya, seni tari tradisional, seni ukir, dan kuliner khasnya yang lezat.',
             // 'more_detail' => 'More detail 1',
         ]);
 
@@ -620,16 +620,16 @@ class ProvinceSeeder extends Seeder
             'island' => 'Terletak di Kepulauan Maluku.',
             'population' => 1000000,
             'ethnic' => 'Ternate',
-            'regional_house' => 'Rumah Adat Tobelo',
+            'regional_house' => 'Rumah Sasadu',
             'regional_house_image' => 'house1.jpg',
             'dance' => 'Tari Cakalele',
             'dance_image' => 'dance1.jpg',
-            'weapon' => 'Sasi',
+            'weapon' => 'Salawaku',
             'weapon_image' => 'weapon1.jpg',
-            'music' => 'Kolintang Maluku Utara',
+            'music' => 'Tifa',
             'music_image' => 'music1.jpg',
             'tradition' => 'Pesta Rakyat',
-            'flash_info' => 'Terletak di utara Kepulauan Maluku.',
+            'flash_info' => 'Maluku Utara adalah provinsi yang terletak di wilayah utara Kepulauan Maluku, Indonesia. Daerah ini dikenal dengan keindahan alamnya yang menakjubkan, terutama keanekaragaman pulau-pulau kecil, pantai-pantai indah, dan kehidupan bawah laut yang kaya. Salah satu daya tarik utamanya adalah Taman Nasional Kepulauan Togean, yang merupakan surga bagi pecinta diving dengan terumbu karangnya yang indah dan beragam spesies laut. Maluku Utara juga memiliki Taman Nasional Manusela di Pulau Seram yang menawarkan trekking dan penjelajahan alam yang menarik. Provinsi ini juga kaya akan budaya, tradisi, dan seni lokal, tercermin dalam tarian, musik, dan kerajinan tangan tradisional. Ternate, salah satu dari dua ibu kota provinsi ini, memiliki warisan sejarah yang kaya seperti Benteng Kastela yang menggambarkan masa kolonial di daerah ini.',
             // 'more_detail' => 'More detail 1',
         ]);
 
@@ -640,16 +640,16 @@ class ProvinceSeeder extends Seeder
             'island' => 'Terletak di Kepulauan Maluku.',
             'population' => 1000000,
             'ethnic' => 'Ambonese',
-            'regional_house' => 'Rumah Adat Maluku',
+            'regional_house' => 'Baileo',
             'regional_house_image' => 'house1.jpg',
             'dance' => 'Tari Sajo Moa',
             'dance_image' => 'dance1.jpg',
-            'weapon' => 'Cakalele',
+            'weapon' => 'Salawaku',
             'weapon_image' => 'weapon1.jpg',
             'music' => 'Kolintang Maluku',
             'music_image' => 'music1.jpg',
             'tradition' => 'Pawai Nusantara',
-            'flash_info' => 'Terkenal dengan keindahan bawah laut dan kekayaan budaya.',
+            'flash_info' => 'Provinsi Maluku terletak di wilayah timur Indonesia dan terdiri dari berbagai pulau yang indah. Daerah ini dikenal dengan kekayaan alamnya yang luar biasa, termasuk pemandangan pantai-pantai yang menakjubkan, terumbu karang yang mempesona, dan kehidupan laut yang kaya akan spesies yang beragam. Salah satu daya tarik utamanya adalah Kei Islands, yang terkenal akan pantainya yang berpasir putih dan air laut yang jernih. Provinsi ini juga memiliki warisan budaya yang kaya, tercermin dalam seni tari, musik, dan kerajinan tangan tradisional yang unik. Ambon, ibu kotanya, memiliki sejarah yang kaya dan merupakan pusat kegiatan ekonomi serta budaya di wilayah ini. Maluku juga dikenal dengan rempah-rempahnya yang berharga seperti cengkih dan pala yang menjadi salah satu sumber daya alam utama di sini.',
             // 'more_detail' => 'More detail 1',
         ]);
 
@@ -662,14 +662,14 @@ class ProvinceSeeder extends Seeder
             'ethnic' => 'Papuan',
             'regional_house' => 'Honai',
             'regional_house_image' => 'house1.jpg',
-            'dance' => 'Tari Rumanggai',
+            'dance' => 'Tari Aluyen',
             'dance_image' => 'dance1.jpg',
             'weapon' => 'Panah dan busur',
             'weapon_image' => 'weapon1.jpg',
-            'music' => 'Tifa Papua Barat',
+            'music' => 'Tifa',
             'music_image' => 'music1.jpg',
             'tradition' => 'Upacara Adat Bakar Batu',
-            'flash_info' => 'Merupakan bagian barat dari Pulau Papua.',
+            'flash_info' => ' Papua Barat Daya adalah bagian dari Provinsi Papua Barat di Indonesia yang meliputi wilayah barat daya Pulau Papua. Daerah ini memiliki keindahan alam yang luar biasa, termasuk pegunungan, hutan hujan tropis, dan keanekaragaman hayati yang kaya. Salah satu tujuan utamanya adalah Taman Nasional Teluk Cenderawasih, yang terkenal dengan terumbu karangnya yang spektakuler dan menjadi rumah bagi berbagai spesies ikan serta penyu. Daerah ini juga kaya akan kebudayaan suku-suku asli Papua, yang terlihat dalam seni, tarian, dan tradisi mereka yang khas. Sorong, salah satu kota utamanya, menjadi gerbang menuju keindahan alam Papua Barat Daya dan menjadi pusat ekonomi serta transportasi di wilayah ini.',
             // 'more_detail' => 'More detail 1',
         ]);
 
@@ -686,10 +686,10 @@ class ProvinceSeeder extends Seeder
             'dance_image' => 'dance1.jpg',
             'weapon' => 'Panah dan busur',
             'weapon_image' => 'weapon1.jpg',
-            'music' => 'Tifa Papua',
+            'music' => 'Tifa',
             'music_image' => 'music1.jpg',
             'tradition' => 'Tari Cendrawasih',
-            'flash_info' => 'Merupakan bagian timur dari Pulau Papua.',
+            'flash_info' => 'Papua, terletak di ujung timur Indonesia, adalah provinsi yang kaya akan keindahan alamnya yang memukau, mulai dari pegunungan tinggi hingga hutan hujan tropis yang luas. Daerah ini merupakan rumah bagi keanekaragaman hayati yang luar biasa, dengan spesies-spesies langka yang menghuni hutan dan sungai-sungai yang mengalir di sana. Selain itu, keberagaman budaya suku-suku asli Papua tercermin dalam seni, tarian, dan tradisi mereka yang unik. Meskipun memiliki potensi besar dalam sumber daya alam, Papua juga menghadapi tantangan dalam infrastruktur, layanan kesehatan, dan pendidikan yang perlu diatasi untuk memperkuat pembangunan wilayah ini secara menyeluruh.',
             // 'more_detail' => 'More detail 1',
         ]);
 
@@ -702,14 +702,14 @@ class ProvinceSeeder extends Seeder
             'ethnic' => 'Papuan',
             'regional_house' => 'Rumah Adat Nabire',
             'regional_house_image' => 'house1.jpg',
-            'dance' => 'Tari Kowar',
+            'dance' => 'Tari Musyoh',
             'dance_image' => 'dance1.jpg',
             'weapon' => 'Panah dan busur',
             'weapon_image' => 'weapon1.jpg',
-            'music' => 'Tifa Papua',
+            'music' => 'Tifa',
             'music_image' => 'music1.jpg',
             'tradition' => 'Upacara Adat Korowai',
-            'flash_info' => 'Terletak di bagian tengah Pulau Papua.',
+            'flash_info' => 'Papua Tengah, terletak di bagian tengah Provinsi Papua di Indonesia, adalah wilayah yang kaya akan keindahan alamnya yang memukau, terutama hutan hujan tropisnya yang luas dan pegunungan yang mengesankan. Daerah ini memiliki beragam kebudayaan dari suku-suku asli Papua yang tercermin dalam seni, tarian, dan kepercayaan tradisional mereka. Meskipun memiliki potensi alam yang besar, Papua Tengah juga menghadapi tantangan dalam pengembangan infrastruktur, layanan kesehatan, dan pendidikan untuk meningkatkan taraf hidup penduduk dan memperkuat pembangunan wilayah ini secara berkelanjutan.',
             // 'more_detail' => 'More detail 1',
         ]);
 
@@ -722,14 +722,14 @@ class ProvinceSeeder extends Seeder
             'ethnic' => 'Papuan',
             'regional_house' => 'Rumah Honai',
             'regional_house_image' => 'house1.jpg',
-            'dance' => 'Tari Ampera',
+            'dance' => 'Tari Falabea',
             'dance_image' => 'dance1.jpg',
             'weapon' => 'Panah dan busur',
             'weapon_image' => 'weapon1.jpg',
-            'music' => 'Tifa Papua Pegunungan',
+            'music' => 'Tifa',
             'music_image' => 'music1.jpg',
             'tradition' => 'Upacara Adat Seagull',
-            'flash_info' => 'Terletak di pegunungan tengah Pulau Papua.',
+            'flash_info' => 'Papua Pegunungan, terletak di wilayah Pegunungan Tengah Papua, menampilkan keindahan alam yang menakjubkan, terutama dengan pemandangan pegunungan yang spektakuler. Daerah ini merupakan rumah bagi suku-suku asli Papua yang memiliki kekayaan budaya dan tradisi yang unik, tercermin dalam seni, tarian, dan ritual adat mereka. Kehidupan suku-suku ini sering terikat dengan alam sekitarnya, mempertahankan gaya hidup yang sangat tradisional. Papua Pegunungan menampilkan lanskap yang menantang namun memukau, menjadi tempat bagi para peneliti dan penggemar alam untuk menjelajahi kekayaan flora dan fauna yang khas di kawasan ini.',
             // 'more_detail' => 'More detail 1',
         ]);
 
@@ -746,10 +746,10 @@ class ProvinceSeeder extends Seeder
             'dance_image' => 'dance1.jpg',
             'weapon' => 'Panah dan busur',
             'weapon_image' => 'weapon1.jpg',
-            'music' => 'Tifa Papua Selatan',
+            'music' => 'Tifa',
             'music_image' => 'music1.jpg',
             'tradition' => 'Upacara Adat Maro',
-            'flash_info' => 'Terletak di bagian selatan Pulau Papua.',
+            'flash_info' => 'Papua Selatan, yang merupakan bagian dari Provinsi Papua di Indonesia, menampilkan keindahan alam yang memukau, terutama dengan pantai-pantai eksotis dan hutan hujan tropis yang luas. Wilayah ini memiliki budaya yang kaya dari berbagai suku asli Papua yang menjaga tradisi, tarian, dan adat istiadat mereka. Kehidupan masyarakat di Papua Selatan sering terhubung erat dengan alam sekitarnya, dengan aktivitas sehari-hari yang terkait dengan alam dan pemanfaatan sumber daya alam secara berkelanjutan. Meskipun memiliki potensi besar dalam keindahan alam dan budaya yang kaya, Papua Selatan juga menghadapi tantangan sosial dan ekonomi, termasuk akses terhadap layanan kesehatan dan pendidikan yang memadai.',
             // 'more_detail' => 'More detail 1',
         ]);
 
@@ -760,16 +760,16 @@ class ProvinceSeeder extends Seeder
             'island' => 'Terletak di Pulau Papua.',
             'population' => 1000000,
             'ethnic' => 'Papuan',
-            'regional_house' => 'Honai',
+            'regional_house' => 'Rumah Honai',
             'regional_house_image' => 'house1.jpg',
             'dance' => 'Tari Kabasaran',
             'dance_image' => 'dance1.jpg',
             'weapon' => 'Panah dan busur',
             'weapon_image' => 'weapon1.jpg',
-            'music' => 'Tifa Papua Barat Daya',
+            'music' => 'Tifa',
             'music_image' => 'music1.jpg',
             'tradition' => 'Festival Kaimana',
-            'flash_info' => 'Terletak di barat daya Pulau Papua.',
+            'flash_info' => 'Papua Barat Daya adalah bagian dari Provinsi Papua Barat yang terletak di wilayah barat daya Pulau Papua. Daerah ini menampilkan keindahan alam yang menakjubkan, terutama dengan pemandangan pantai-pantai yang eksotis, pegunungan yang megah, dan kekayaan budaya dari suku-suku asli Papua. Papua Barat Daya merupakan rumah bagi Taman Nasional Teluk Cenderawasih yang terkenal dengan terumbu karangnya yang spektakuler dan menjadi habitat bagi lumba-lumba dan penyu. Daerah ini juga memiliki budaya yang kaya dari suku-suku setempat, tercermin dalam seni, tarian, dan upacara adat mereka yang unik. Sorong, salah satu kota utamanya, menjadi pintu gerbang untuk mengeksplorasi keindahan alam dan kehidupan budaya di Papua Barat Daya.',
             // 'more_detail' => 'More detail 1',
         ]);
     }
