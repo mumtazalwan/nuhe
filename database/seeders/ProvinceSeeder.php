@@ -3,6 +3,7 @@
 namespace Database\Seeders;
 use App\Models\Province;
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\Storage;
 
 class ProvinceSeeder extends Seeder
 {
@@ -21,13 +22,13 @@ class ProvinceSeeder extends Seeder
             'population' => 2523329,
             'ethnic' => 'Acehnese',
             'regional_house' => 'Rumoh Aceh',
-            'regional_house_image' => 'house1.jpg',
+            'regional_house_image' => Storage::url('Rumoh Aceh'),
             'dance' => 'Saman',
-            'dance_image' => 'dance1.jpg',
+            'dance_image' => Storage::url('Saman'),
             'weapon' => 'Badik Tumbuk Lada',
-            'weapon_image' => 'weapon1.jpg',
+            'weapon_image' => Storage::url('Badik Tumbuk Lada'),
             'music' => 'Tambur',
-            'music_image' => 'music1.jpg',
+            'music_image' => Storage::url('Tambur'),
             'tradition' => 'Tari Saman',
             'flash_info' => 'Aceh merupakan provinsi di ujung barat Indonesia yang memiliki sejarah dan budaya yang kaya. Terkenal sebagai tempat di mana Islam pertama kali masuk ke Indonesia, Aceh memiliki warisan budaya yang kuat, termasuk adat istiadat, kesenian tradisional seperti Tari Saman, serta bangunan bersejarah seperti Masjid Baiturrahman. Selain kekayaan budayanya, Aceh juga terkenal dengan keindahan alamnya yang menakjubkan, termasuk pantai-pantai yang eksotis dan lanskap pegunungan yang menawan. Provinsi ini juga memiliki kekayaan sumber daya alam seperti minyak dan gas yang berperan penting dalam perekonomiannya. Aceh juga memiliki keistimewaan dalam otonomi yang lebih luas dalam hal hukum Islam dan memiliki wilayah yang disebut sebagai wilayah dengan hukum Islam yang diterapkan secara parsial.',
             // 'more_detail' => 'More detail 1',
