@@ -21,10 +21,12 @@ class DestinationController extends Controller
     {
         $data = Destination::whereNotNull('banner')->get();
 
+        $banners = $data->pluck('banner');
+
         return response()->json([
             'success' => true,
             'code' => 200,
-            'data' => $data??[]
+            'data' => $banners??[]
         ]);
     }
 }
