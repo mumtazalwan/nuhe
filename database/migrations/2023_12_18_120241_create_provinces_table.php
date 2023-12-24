@@ -22,7 +22,7 @@ return new class extends Migration
             $table->string('ethnic');
             $table->string('regional_house');
             $table->string('regional_house_image');
-            $table->string('house_desc')->nullable();
+            $table->text('house_desc')->nullable();
             $table->string('dance');
             $table->string('dance_image');
             $table->text('dance_desc')->nullable();
@@ -34,7 +34,6 @@ return new class extends Migration
             $table->text('music_desc')->nullable();
             $table->string('tradition');
             $table->text('flash_info');
-            // $table->text('more_detail');
             $table->timestamps();
         });
     }
