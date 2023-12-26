@@ -40,7 +40,7 @@ class ProvinceSeeder extends Seeder
 
         Province::create([
             'province_name' => 'Sumatera Utara',
-            'banner' => Storage::url('sumatera_utara.jpg'),
+            'banner' => Storage::url('sumatera_utara.jpeg'),
             'capital' => 'Ibu Kota Medan',
             'local_language' => 'Bahasa Batak',
             'island' => 'Sumatera',
@@ -74,31 +74,31 @@ class ProvinceSeeder extends Seeder
             'regional_house_image' => Storage::url('rumah_limas.jpg'),
             'house_desc' => 'Rumah tradisional di Sumatera Selatan, Indonesia, dikenal dengan nama "Rumah Limas". Rumah Limas memiliki ciri khas atap segitiga curam yang menonjol ke atas. Konstruksinya menggunakan kayu sebagai bahan utama, dengan struktur yang kuat dan kokoh. Bangunan ini memiliki pendopo, area terbuka di tengah rumah yang digunakan untuk berkumpul, melakukan aktivitas keluarga, dan acara adat. Arsitektur Rumah Limas menggambarkan nilai-nilai budaya serta kekayaan tradisional masyarakat Sumatera Selatan. Pola hias pada dinding dan pintu sering kali mengandung makna simbolis dan estetika khas daerah.',
             'dance' => 'Tari Pagar Pengantin',
-            'dance_image' => Storage::url('tari_tari_pagar_pengantin.jpg'),
+            'dance_image' => Storage::url('tari_pagar_pengantin.jpg'),
             'dance_desc' => '"Tari Pagar Pengantin" adalah tarian tradisional dari Sumatera Selatan yang melambangkan kesatuan dan kebersamaan dalam pernikahan. Dalam tarian ini, penari pria dan wanita membentuk pagar dari kain panjang, melambangkan perlindungan dan keharmonisan bagi pasangan pengantin. Gerakan yang lemah gemulai mewakili keanggunan dan kelembutan, sementara langkah kaki yang gesit mencerminkan kekuatan dan kesatuan. Musik tradisional seperti gendang dan serunai mengiringi gerakan tarian ini, menambah kesakralan dan keindahan dalam perhelatan pernikahan. Tari Pagar Pengantin menjadi simbol kebersamaan dan kesetiaan dalam perjalanan kehidupan berumah tangga.',
             'weapon' => 'Pedang Ilang',
             'weapon_image' => Storage::url('senjata_pedang_ilang.jpg'),
             'weapon_desc' => '"Pedang Ilang" adalah seni bela diri tradisional dari Indonesia, khususnya Jawa. Dikenal sebagai seni bela diri yang menggunakan pedang, Pedang Ilang memiliki filosofi yang dalam, mengajarkan kesabaran, konsentrasi, dan kontrol diri. Namun, nama "Ilang" sendiri bermakna "hilang" atau "menghilang," yang menekankan pada teknik-teknik gerakan yang cepat dan halus sehingga sulit diperkirakan lawan. Seni bela diri ini mengandalkan ketepatan gerak dan kesadaran batin, menggabungkan kecepatan dan kehalusan gerakan untuk memastikan keamanan dan keefektifan dalam bertarung. Pedang Ilang bukan hanya tentang keahlian fisik, tetapi juga kebijaksanaan dalam menghadapi situasi.',
             'music' => 'Gendang Karo',
             'music_image' => Storage::url('alatmusik_gendang_karo.jpg'),
-            'music_desc' => '"Gendang Karo" adalah instrumen musik perkusi tradisional dari suku Karo di Sumatera Utara, Indonesia. Gendang ini memiliki peranan penting dalam budaya Karo, digunakan dalam berbagai upacara adat, ritual, dan acara keagamaan. Biasanya terbuat dari kayu dan kulit binatang untuk membran drumnya. Gendang Karo memiliki suara yang khas dan dapat menghasilkan berbagai nada, digunakan untuk mengiringi tarian tradisional, seperti Tari Perang Karo atau Tari Serampang Dua Belas. Penggunaan gendang ini juga mengandung nilai-nilai simbolis dalam kehidupan masyarakat Karo, menjadi bagian tak terpisahkan dari identitas budaya mereka.',
+            'music_desc' => '"Gendang Karo" adalah instrumen musik perkusi tradisional dari suku Karo di Sumatera, Indonesia. Gendang ini memiliki peranan penting dalam budaya Karo, digunakan dalam berbagai upacara adat, ritual, dan acara keagamaan. Biasanya terbuat dari kayu dan kulit binatang untuk membran drumnya. Gendang Karo memiliki suara yang khas dan dapat menghasilkan berbagai nada, digunakan untuk mengiringi tarian tradisional, seperti Tari Perang Karo atau Tari Serampang Dua Belas. Penggunaan gendang ini juga mengandung nilai-nilai simbolis dalam kehidupan masyarakat Karo, menjadi bagian tak terpisahkan dari identitas budaya mereka.',
             'tradition' => 'Tari Persembahan',
             'flash_info' => 'Sumatera Selatan adalah provinsi yang terletak di bagian selatan Pulau Sumatera, Indonesia. Wilayah ini kaya akan keindahan alam, seperti hutan tropis, sungai besar seperti Sungai Musi yang melintasi kota Palembang, dan pantai-pantai yang menarik. Palembang, ibu kotanya, terkenal dengan Warisan Dunia, Situs Warisan Budaya UNESCO, yaitu kompleks arkeologis Sriwijaya, serta menjadi pusat kebudayaan Melayu yang kaya akan tradisi dan seni musik, seperti tari Zapin dan tarian tradisional lainnya. Sumatera Selatan juga terkenal dengan industri pertanian yang maju, terutama produksi kelapa sawit dan karet, yang menjadi tulang punggung perekonomian provinsi ini.',
         ]);
 
         Province::create([
             'province_name' => 'Sumatera Barat',
-            'banner' => Storage::url('sumatera_barat.jpg'),
+            'banner' => Storage::url('sumatera_barat.jpeg'),
             'capital' => 'Ibu Kota Padang',
             'local_language' => 'Bahasa Minangkabau',
             'island' => 'Sumatera',
             'population' => 1000000,
             'ethnic' => 'Minangkabau',
             'regional_house' => 'Rumah Gadang',
-            'regional_house_image' => Storage::url('rumah_gadang.jpg'),
+            'regional_house_image' => Storage::url('rumah_gadang.jpeg'),
             'house_desc' => 'Rumah Gadang adalah rumah tradisional Minangkabau yang khas di Sumatera Barat, Indonesia. Dikenal dengan atapnya yang melengkung ke atas, menyerupai tanduk kerbau, rumah ini mencerminkan identitas masyarakat Minang yang matrilineal. Arsitekturnya mengutamakan kayu dan atap yang dirancang secara artistik dengan ukiran halus, memperlihatkan keindahan seni dan keahlian lokal. Ruang besar di dalamnya digunakan untuk pertemuan keluarga dan upacara adat. Rumah Gadang juga melambangkan warisan budaya Minangkabau, baik sebagai struktur fisik maupun simbol nilai-nilai tradisional, seperti kesetaraan gender dan kekeluargaan yang kuat.',
             'dance' => 'Tari Piring',
-            'dance_image' => Storage::url('tari_tari_piring.jpg'),
+            'dance_image' => Storage::url('tari_piring.png'),
             'dance_desc' => '"Tari Piring" adalah tarian tradisional dari Minangkabau, Sumatera Barat, yang menampilkan gerakan gemulai penari sambil memegang piring di tangan. Tarian ini menggambarkan kegembiraan, semangat, dan keterampilan kelompok dalam kehidupan sehari-hari. Penari, sering kali dalam jumlah besar, mengelilingi area pertunjukan sambil menari dengan piring yang dihiasi, membuat suara gemerincing yang khas. Tarian ini tidak hanya hiburan, tetapi juga menyiratkan pesan kekompakan, kebersamaan, dan keharmonisan dalam menjalani kehidupan. Melalui gerakan dan irama musik yang enerjik, Tari Piring menjadi representasi keceriaan dan keindahan budaya Minangkabau.',
             'weapon' => 'Keris Minangkabau',
             'weapon_image' => Storage::url('senjata_keris_minangkabau.jpg'),
@@ -122,10 +122,10 @@ class ProvinceSeeder extends Seeder
             'regional_house_image' => Storage::url('rumah_adat_bengkulu.jpg'),
             'house_desc' => 'Rumah adat di Bengkulu, Indonesia, terkenal dengan nama "Rumah Bubungan Tinggi". Bangunan ini memiliki atap tumpang tiga atau lima tingkat, melengkung dengan hiasan ukiran yang khas. Material utamanya adalah kayu yang diolah secara tradisional. Struktur rumah ini memungkinkan sirkulasi udara yang baik, cocok untuk iklim tropis. Ruang terbuka di dalamnya menjadi tempat berkumpul bagi keluarga atau untuk melaksanakan kegiatan adat. Rumah Bubungan Tinggi mencerminkan keindahan arsitektur khas Bengkulu serta warisan budaya yang berharga, menjadi simbol identitas dan kekayaan tradisional masyarakat daerah ini.',
             'dance' => 'Tari Serampang 12',
-            'dance_image' => Storage::url('tari_tari_serampang_12.jpg'),
-            'dance_desc' => 'Tari Serampang 12 adalah tarian tradisional dari Sumatera Utara, Indonesia, yang melibatkan 12 penari wanita. Gerakannya ceria dan energik, sering dipadukan dengan iringan musik yang gembira. Tarian ini menggambarkan kehidupan sehari-hari, kebersamaan, dan semangat gotong royong. Setiap gerakan memiliki makna simbolis, mencerminkan keharmonisan dalam kebersamaan. Serampang 12 menjadi simbol keceriaan, solidaritas, dan kekompakan dalam budaya Batak. Dengan gerakan yang gemulai dan irama musik yang menggoda, tarian ini merayakan keindahan budaya Batak dan menjadi ekspresi kegembiraan dalam perayaan dan upacara adat.',
+            'dance_image' => Storage::url('tari_serampang_12.jpg'),
+            'dance_desc' => 'Tari Serampang 12 adalah tarian tradisional dari Sumatera, Indonesia, yang melibatkan 12 penari wanita. Gerakannya ceria dan energik, sering dipadukan dengan iringan musik yang gembira. Tarian ini menggambarkan kehidupan sehari-hari, kebersamaan, dan semangat gotong royong. Setiap gerakan memiliki makna simbolis, mencerminkan keharmonisan dalam kebersamaan. Serampang 12 menjadi simbol keceriaan, solidaritas, dan kekompakan dalam budaya Batak. Dengan gerakan yang gemulai dan irama musik yang menggoda, tarian ini merayakan keindahan budaya Batak dan menjadi ekspresi kegembiraan dalam perayaan dan upacara adat.',
             'weapon' => 'Keris Bengkulu',
-            'weapon_image' => Storage::url('senjata_keris_bengkulu.jpg'),
+            'weapon_image' => Storage::url('senjata_keris_bengkulu.pnjg'),
             'weapon_desc' => 'Keris Bengkulu adalah senjata tradisional berbentuk pisau yang memiliki makna simbolis dan kebudayaan yang dalam di Bengkulu, Indonesia. Keris ini sering dihiasi dengan hulu yang indah dan memiliki pola bilah yang unik. Pengrajin keris di Bengkulu memiliki keahlian tinggi dalam pembuatan dan hiasan keris, serta menjadikannya sebagai bagian penting dari warisan budaya lokal. Keris tidak hanya sebagai senjata, tetapi juga memiliki nilai keindahan seni dan nilai-nilai spiritual. Keris Bengkulu sering diabadikan dalam berbagai acara adat, menjadi bagian tak terpisahkan dari identitas dan kekayaan budaya masyarakat Bengkulu.',
             'music' => 'Serunai',
             'music_image' => Storage::url('alatmusik_serunai.jpg'),
@@ -143,13 +143,13 @@ class ProvinceSeeder extends Seeder
             'population' => 1000000,
             'ethnic' => 'Minangkabau',
             'regional_house' => 'Rumah Melayu Atap Lontik',
-            'regional_house_image' => Storage::url('rumah_melayu_atap_lontik.jpg'),
+            'regional_house_image' => Storage::url('rumah_melayu_atap_lontik.png'),
             'house_desc' => 'Rumah Melayu dengan atap lontik merupakan rumah tradisional khas Riau, Indonesia. Bangunan ini memiliki atap yang melengkung dengan ujung yang miring ke atas, menyerupai bentuk lontik (tanduk kerbau). Strukturnya menggunakan kayu dan bambu dengan detail ukiran yang khas. Ruang terbuka di dalamnya menciptakan sirkulasi udara yang baik dalam iklim tropis. Rumah ini menggambarkan keindahan arsitektur Melayu yang khas dan fungsionalitasnya dalam kehidupan sehari-hari. Rumah Melayu dengan atap lontik menjadi lambang identitas budaya Riau, menjadi bagian yang tak terpisahkan dari kekayaan tradisional masyarakat setempat.',
             'dance' => 'Tari Zapin',
-            'dance_image' => Storage::url('tari_tari_zapin.jpg'),
+            'dance_image' => Storage::url('tari_zapin.jpg'),
             'dance_desc' => 'Tari Zapin adalah tarian tradisional Melayu yang berasal dari Kepulauan Riau dan wilayah Melayu lainnya. Gerakannya elegan, mengikuti irama musik yang mendayu. Biasanya, tari Zapin diiringi oleh alat musik seperti gambus, rebana, atau gendang. Para penari memperlihatkan gerakan yang lemah gemulai dan anggun, seringkali dalam formasi kelompok atau pasangan. Tarian ini sering dipentaskan dalam berbagai acara seperti pernikahan, festival budaya, atau perayaan keagamaan. Zapin memancarkan keindahan, keanggunan, dan kesopanan budaya Melayu, menjadikannya warisan seni yang memperkaya keberagaman tradisi Indonesia.',
             'weapon' => 'Keris Riau',
-            'weapon_image' => Storage::url('senjata_keris_riau.jpg'),
+            'weapon_image' => Storage::url('senjata_keris_riau.png'),
             'weapon_desc' => 'Keris Riau adalah senjata tradisional dan simbol kebudayaan yang sangat penting di Provinsi Riau, Indonesia. Keris ini memiliki ciri khas bilah yang melengkung dan hulu yang dihiasi dengan ukiran yang indah. Sebagai warisan budaya yang berharga, pembuatan keris membutuhkan keahlian tinggi dari para pandai besi dalam memilih material, mengolah bilah, hingga membuat hiasan pada hulu. Keris Riau tidak hanya dipandang sebagai senjata, tetapi juga memiliki nilai-nilai spiritual, simbol status, dan keindahan seni yang mendalam. Keris sering dianggap sebagai pusaka keluarga dan digunakan dalam upacara adat serta acara penting lainnya.',
             'music' => 'Talempong',
             'music_image' => Storage::url('alatmusik_talempong.jpg'),
@@ -170,7 +170,7 @@ class ProvinceSeeder extends Seeder
             'regional_house_image' => Storage::url('rumah_lipat_pandan.jpg'),
             'house_desc' => 'Rumah Lipat Pandan adalah rumah adat masyarakat Suku Mandar di Sulawesi Barat, Indonesia. Dibangun dari anyaman daun pandan, rumah ini memiliki struktur yang bisa dilipat untuk memudahkan perpindahan. Material alami dan fleksibilitas konstruksinya memungkinkan untuk merakit dan membongkarnya dengan mudah. Ruang dalamnya dibagi menjadi bagian tempat tinggal dan dapur dengan atap yang melengkung. Arsitektur rumah Lipat Pandan mencerminkan kebijaksanaan lokal dalam memanfaatkan lingkungan alam sekitarnya untuk kebutuhan sehari-hari, serta menjadi lambang identitas budaya yang kaya di Sulawesi Barat.',
             'dance' => 'Tari Enggang',
-            'dance_image' => Storage::url('tari_tari_enggang.jpg'),
+            'dance_image' => Storage::url('tari_enggang.jpg'),
             'dance_desc' => 'Tari Enggang adalah tarian tradisional suku Dayak di Kalimantan Timur, Indonesia, yang menggambarkan keanggunan burung Enggang (Hornbill). Gerakannya mengikuti langkah-langkah yang lemah gemulai, menggambarkan burung Enggang yang melambai-lambai dan terbang dengan indahnya. Para penari memakai pakaian tradisional yang menyerupai burung Enggang dengan hiasan kepala yang mencolok. Tarian ini sering dipentaskan dalam upacara adat, perayaan kebudayaan, atau acara khusus. Selain sebagai hiburan, Tari Enggang juga mengandung makna simbolis tentang kehidupan, keindahan alam, dan keseimbangan spiritual, menjadikannya bagian yang tak terpisahkan dari warisan budaya suku Dayak.',
             'weapon' => 'Klewang',
             'weapon_image' => Storage::url('senjata_klewang.jpg'),
@@ -194,7 +194,7 @@ class ProvinceSeeder extends Seeder
             'regional_house_image' => Storage::url('rumah_panggung_kajang_lako.jpg'),
             'house_desc' => 'Rumah Panggung Kajang Lako adalah rumah adat suku Bugis-Makassar di Sulawesi Selatan, Indonesia. Dibangun di atas tiang-tiang, rumah ini memiliki atap berbentuk limas yang curam. Material utamanya adalah kayu yang kuat dan tahan lama. Bagian dalam rumah biasanya terbagi menjadi ruang tamu, kamar tidur, dan dapur. Kajang Lako mencerminkan kearifan lokal dalam membangun rumah yang tahan terhadap cuaca tropis dan lingkungan sekitar. Selain sebagai tempat tinggal, rumah ini menjadi simbol identitas suku Bugis-Makassar, memperkaya warisan budaya Indonesia dengan arsitektur yang unik dan fungsional.',
             'dance' => 'Tari Tanggai',
-            'dance_image' => Storage::url('tari_tari_tanggai.jpg'),
+            'dance_image' => Storage::url('tari_tanggai.jpg'),
             'dance_desc' => 'Tari Tanggai adalah tarian tradisional dari Palembang, Sumatera Selatan, Indonesia, yang dilakukan oleh para penari wanita. Gerakannya lemah gemulai dengan penggunaan alat musik berupa tanggai, yakni gelang atau hiasan kaki yang menghasilkan suara gemerincing saat penari menari. Tarian ini menggambarkan keceriaan, keanggunan, dan keramahan budaya Palembang. Sering ditampilkan dalam upacara adat, perayaan, atau acara budaya lainnya, Tanggai memancarkan pesan tentang keindahan dan kegembiraan dalam kehidupan sehari-hari. Suara gemerincing tanggai, bersama gerakan yang halus, menciptakan visual dan audio yang memikat, menjadi bagian tak terpisahkan dari budaya tradisional Palembang.',
             'weapon' => 'Badik Tumbuk Lada',
             'weapon_image' => Storage::url('senjata_badik_tumbuk_lada.jpg'),
@@ -215,10 +215,10 @@ class ProvinceSeeder extends Seeder
             'population' => 1000000,
             'ethnic' => 'Lampung',
             'regional_house' => 'Nuwo Sesat',
-            'regional_house_image' => Storage::url('nuwo_sesat.jpg'),
+            'regional_house_image' => Storage::url('rumah_nuwo_sesat.jpeg'),
             'house_desc' => 'Nuwo Sesat adalah salah satu rumah tradisional yang ada di Provinsi Lampung. Nuwo Sesat berfungsi sebagai tempat pertemuan adat bagi para purwatin (Penyimbang) pada saat mengadakan pepung adat (Musyawarah). Karena itu rumah tradisional ini juga disebut Balai Agung. Bagian-bagian dari rumah tradisional ini adalah Anjungan yang merupakan serambi yang digunakan untuk pertemuan kecil, Pusiban adalah ruang dalam yang digunakan sebagai tempat musyawarah resmi, ruang Tetabuhan adalah ruangan tempat menyimpan alat musik tradisional, ruang gajah merem yang digunakan untuk tempat istirahat bagi para penyimbang, dan ijan geladak adalah tangga masuk yang dilengkapi dengan atap. Atap rumah adat ini disebut rurung agung.',
             'dance' => 'Tari Gending Sriwijaya',
-            'dance_image' => Storage::url('tari_tari_gending_sriwijaya.jpg'),
+            'dance_image' => Storage::url('tari_gending_sriwijaya.png'),
             'dance_desc' => 'Tari Gending Sriwijaya adalah tarian tradisional yang mungkin terkait dengan kejayaan Sriwijaya, kerajaan kuno di Sumatera. Tarian ini mungkin menggambarkan keindahan, kebesaran, atau cerita historis dari masa lalu. Gerakan tariannya mungkin mengadopsi elemen-elemen yang merujuk pada kehidupan istana, kegiatan keseharian, atau peristiwa bersejarah dari zaman Sriwijaya. Namun, detail spesifik mengenai gerakan, musik, atau makna dalam Tari Gending Sriwijaya bisa berbeda-beda dan bergantung pada versi atau interpretasi lokal dalam tradisi budaya setempat di masing-masing daerah.',
             'weapon' => 'Terapang',
             'weapon_image' => Storage::url('senjata_terapang.jpg'),
@@ -239,16 +239,16 @@ class ProvinceSeeder extends Seeder
             'population' => 1000000,
             'ethnic' => 'Belitung',
             'regional_house' => 'Rumah Rakit Limas',
-            'regional_house_image' => Storage::url('rumah_rakit_limas.jpg'),
+            'regional_house_image' => Storage::url('rumah_adat_rakit_limas.png'),
             'house_desc' => 'Rumah Rakit Limas adalah rumah adat khas dari masyarakat pedalaman di Kalimantan, Borneo. Dibangun di atas rakit dari kayu-kayu besar yang diikat erat, rumah ini memiliki atap berbentuk limas dan dinding terbuat dari anyaman daun nipah atau bambu. Struktur rumah yang terapung ini dirancang untuk menghadapi banjir dan lingkungan air, menjadikannya tempat tinggal yang aman dan fungsional di daerah rawa atau sungai. Rumah Rakit Limas mencerminkan adaptasi budaya lokal terhadap lingkungan alam, menjadi simbol warisan budaya yang unik dan fungsional bagi masyarakat pedalaman Borneo.',
             'dance' => 'Tari Piring Belitung',
-            'dance_image' => Storage::url('tari_tari_piring_belitung.jpg'),
+            'dance_image' => Storage::url('tari_piring_belitung.png'),
             'dance_desc' => 'Tari Piring Belitung adalah tarian tradisional dari Kepulauan Bangka Belitung, Indonesia, yang memperlihatkan gerakan menari sambil memegang piring. Para penari, sering dalam kelompok besar, menampilkan gerakan gemulai dan ceria sambil memainkan piring di tangan mereka. Tarian ini menggambarkan kegembiraan, semangat, dan kebersamaan dalam kehidupan sehari-hari. Suara gemerincing piring yang saling bertautan menciptakan irama yang memikat. Tari Piring Belitung sering dipentaskan dalam berbagai perayaan budaya, acara adat, atau sebagai bagian dari upacara keagamaan, menjadi simbol keceriaan dan keindahan budaya Kepulauan Bangka Belitung.',
             'weapon' => 'Keris Bangka',
             'weapon_image' => Storage::url('senjata_keris_bangka.jpg'),
             'weapon_desc' => 'Keris Bangka adalah senjata tradisional yang berasal dari Kepulauan Bangka, Indonesia. Memiliki bilah yang unik dengan ukiran yang indah dan hulu yang dipercantik, keris ini adalah simbol budaya dan kebanggaan lokal. Pengrajin di Bangka memiliki keahlian tinggi dalam pembuatan keris, menggunakan teknik tradisional yang turun-temurun. Selain sebagai senjata, keris juga memiliki nilai simbolis dan ritualistik dalam berbagai acara adat, pernikahan, atau sebagai bagian dari identitas lokal. Keris Bangka adalah warisan berharga yang mencerminkan keindahan seni dan kearifan lokal dalam tradisi senjata tradisional Indonesia.',
             'music' => 'Gitar Gambus',
-            'music_image' => Storage::url('alatmusik_gitar_gambus.jpg'),
+            'music_image' => Storage::url('alatmusik_gitar_gambus.png'),
             'music_desc' => 'Gitar gambus adalah alat musik senar tradisional yang sering digunakan dalam musik Arab dan Timur Tengah. Berbentuk seperti gitar dengan leher panjang dan badan yang lebih bulat, gitar ini memiliki sejumlah senar yang umumnya terbuat dari nilon atau sutra. Suara gitar gambus khas, dalam kombinasi dengan pola irama yang khas, menambahkan kedalaman dan nuansa khas pada musik tradisional Arab. Instrumen ini sering digunakan dalam musik pengiring untuk menambahkan nuansa khas pada lagu-lagu, terutama dalam genre musik religius atau tradisional di wilayah tersebut.',
             'tradition' => 'Festival Laskar Pelangi',
             'flash_info' => 'Provinsi Kepulauan Bangka Belitung terletak di sebelah timur Sumatera, Indonesia. Provinsi ini terdiri dari dua pulau utama, yaitu Bangka dan Belitung, serta pulau-pulau kecil di sekitarnya. Dikenal karena keindahan alamnya, terutama pantai-pantai berpasir putih yang memikat seperti Pantai Tanjung Tinggi dan Pantai Parai Tenggiri yang menarik wisatawan. Selain itu, Bangka Belitung juga merupakan daerah tambang timah yang signifikan bagi perekonomian Indonesia. Kehidupan laut di sekitar pulau-pulau ini juga kaya akan kehidupan biota laut yang menarik, membuatnya menjadi tempat yang populer bagi para penyelam. Kepulauan ini juga memiliki kebudayaan lokal yang khas, yang tercermin dalam tradisi, seni, dan budaya Melayu yang unik di sana.'
@@ -266,7 +266,7 @@ class ProvinceSeeder extends Seeder
             'regional_house_image' => Storage::url('rumah_betang.jpg'),
             'house_desc' => 'Rumah Betang adalah rumah adat suku Dayak di Kalimantan, Indonesia. Dibangun dari kayu keras dengan atap panjang melengkung, rumah ini memiliki struktur yang cukup besar dan biasanya berbentuk panjang. Bagian dalamnya dibagi menjadi ruang tamu dan ruang tidur yang terbuka dengan dinding dari anyaman bambu atau kayu. Betang adalah tempat berkumpul bagi komunitas, sering digunakan untuk acara adat, pertemuan, dan upacara keagamaan. Rumah ini mencerminkan keberadaan dan keharmonisan antara manusia dan alam, serta menjadi lambang warisan budaya dan keberlanjutan kehidupan masyarakat Dayak.',
             'dance' => 'Tari Ajat Temuai Datai',
-            'dance_image' => Storage::url('tari_tari_ajat_temuai_datai.jpg'),
+            'dance_image' => Storage::url('tari_ajat_temuai_datai.jpg'),
             'dance_desc' => 'Tari Ajat Temuai Datai adalah tarian adat suku Dayak Iban di Kalimantan, Indonesia. Gerakannya melambangkan perjalanan spiritual dan keseimbangan alam. Penari membawa benda-benda seperti parang, perisai, dan senjata tradisional lainnya. Tarian ini menggambarkan keberanian, keseimbangan, dan koneksi antara manusia dengan alam. Dipentaskan dalam upacara adat atau festival, Ajat Temuai Datai adalah ekspresi mendalam dari nilai-nilai tradisional dan identitas suku Dayak Iban. Gerakannya yang kuat, disertai dengan musik dan kostum tradisional, menciptakan pertunjukan yang memukau serta menjadi penghormatan terhadap warisan budaya dan spiritual suku Dayak.',
             'weapon' => 'Mandau',
             'weapon_image' => Storage::url('senjata_mandau.jpg'),
@@ -290,7 +290,7 @@ class ProvinceSeeder extends Seeder
             'regional_house_image' => Storage::url('rumah_lamin.jpg'),
             'house_desc' => 'Rumah Lamin adalah rumah tradisional suku Baduy di Banten, Indonesia. Dibangun dengan struktur kayu yang kuat dan sederhana, rumah ini memiliki atap berbentuk limas dengan dinding terbuat dari anyaman bambu. Ruangan dalamnya biasanya terbagi menjadi beberapa bagian seperti tempat tinggal, dapur, dan tempat penyimpanan. Rumah Lamin merupakan simbol keaslian budaya suku Baduy yang menjunjung tinggi kehidupan sederhana, menjaga keselarasan dengan alam, serta mempertahankan nilai-nilai tradisional dalam cara hidup dan arsitektur mereka.',
             'dance' => 'Tari Enggang',
-            'dance_image' => Storage::url('tari_tari_enggang.jpg'),
+            'dance_image' => Storage::url('tari_enggang.jpg'),
             'dance_desc' => 'Tari Enggang adalah tarian tradisional yang berasal dari suku Dayak di Kalimantan. Tarian ini menggambarkan gerakan indah dan gemulai yang terinspirasi oleh burung Enggang, atau hornbill, yang dianggap suci dan memiliki makna khusus dalam budaya Dayak. Gerakan tarian ini menirukan gerakan burung Enggang, dengan sayap yang dikibaskan dan langkah yang elegan. Tari Enggang sering dipentaskan dalam berbagai upacara adat, perayaan, atau acara budaya sebagai penghormatan terhadap keindahan alam dan simbolisme penting burung Enggang dalam kepercayaan dan kebudayaan suku Dayak.',
             'weapon' => 'Mandau',
             'weapon_image' => Storage::url('senjata_mandau.jpg'),
@@ -314,13 +314,13 @@ class ProvinceSeeder extends Seeder
             'regional_house_image' => Storage::url('rumah_banjar.jpg'),
             'house_desc' => 'Rumah Banjar adalah rumah adat masyarakat Banjar di Kalimantan Selatan, Indonesia. Biasanya, rumah ini memiliki atap limas tinggi yang melengkung, dibangun dari kayu dengan dinding yang terbuat dari anyaman bambu atau kayu. Struktur rumah ini dirancang untuk menjaga sirkulasi udara di lingkungan tropis. Ruang dalamnya terbagi menjadi beberapa bagian yang memiliki fungsi tertentu, seperti tempat tinggal, dapur, dan ruang pertemuan. Rumah Banjar menjadi lambang identitas budaya, menggambarkan kearifan lokal dalam memanfaatkan lingkungan alam untuk kebutuhan sehari-hari serta mewariskan nilai-nilai budaya masyarakat Banjar.',
             'dance' => 'Tari Mandau',
-            'dance_image' => Storage::url('tari_tari_mandau.jpg'),
+            'dance_image' => Storage::url('tari_mandau.jpg'),
             'dance_desc' => 'Tari Mandau adalah ekspresi seni tarian yang menggambarkan kisah kepahlawanan dan keberanian menggunakan senjata tradisional Mandau suku Dayak di Kalimantan. Gerakannya menampilkan kekuatan, keanggunan, dan kepercayaan dalam perjuangan atau pertempuran. Para penari menggambarkan aksi dengan membawa replika Mandau sambil menampilkan gerakan yang menonjolkan kepiawaian dan keberanian. Tari Mandau sering kali dipentaskan dalam berbagai upacara adat atau sebagai bagian dari festival budaya, menjadi cara untuk memperingati keberanian leluhur serta menyampaikan pesan nilai-nilai keberanian dan kehormatan yang dijunjung tinggi oleh suku Dayak.',
             'weapon' => 'Mandau',
             'weapon_image' => Storage::url('senjata_mandau.jpg'),
             'weapon_desc' => 'Mandau adalah senjata tradisional suku Dayak di Kalimantan, Indonesia. Pedang ini memiliki bilah melengkung satu mata yang tajam dan gagang kayu yang dihiasi dengan ukiran atau hiasan khas. Mandau bukan hanya senjata, melainkan juga lambang kehormatan, keberanian, dan status sosial dalam masyarakat Dayak. Dipakai dalam upacara adat, ritual, atau sebagai hiasan dalam tarian tradisional, mandau memiliki nilai simbolis yang dalam dalam kehidupan sehari-hari dan juga dalam warisan budaya suku Dayak, menjadi representasi dari keanggunan seni dan keterampilan pandai besi tradisional.',
             'music' => 'Kalang Kupak',
-            'music_image' => Storage::url('alatmusik_kalang_kupak.jpg'),
+            'music_image' => Storage::url('alatmusik_kalang_kupak.png'),
             'music_desc' => 'Kalang Kupak adalah alat musik perkusi tradisional dari Suku Dayak di Kalimantan, Indonesia. Terbuat dari kulit binatang yang diregangkan di atas rangka kayu, memiliki bentuk yang mirip dengan tamborin besar. Alat musik ini dimainkan dengan cara dipukul menggunakan tangan. Suaranya menghasilkan ritme yang khas dalam musik tradisional Dayak. Kalang Kupak sering digunakan dalam berbagai upacara adat, festival, atau acara penting lainnya. Suaranya yang menggelegar dan iramanya yang menghentak menjadi pengiring utama dalam musik dan tarian tradisional, menjadi bagian penting dalam warisan seni budaya Suku Dayak.',
             'tradition' => 'Tari Zapin Banjar',
             'flash_info' => 'Kalimantan Timur adalah provinsi yang terletak di bagian timur Pulau Kalimantan, Indonesia. Wilayah ini kaya akan keindahan alam, termasuk hutan hujan tropisnya yang luas, gunung-gunung, serta kekayaan alam seperti tambang batu bara dan minyak bumi yang menjadi pendorong ekonomi utama provinsi ini. Taman Nasional Kutai merupakan salah satu dari beberapa kawasan pelestarian alam yang menampilkan keanekaragaman hayati yang melimpah. Kalimantan Timur juga kaya akan kebudayaan suku Dayak dan Kutai yang terwujud dalam tradisi, seni, dan adat istiadat unik. Kota Samarinda, ibu kotanya, memiliki daya tarik seperti Jembatan Mahakam yang memperlihatkan keindahan sungai Mahakam serta menjadi ikon kota yang menarik perhatian wisatawan.'
@@ -328,7 +328,7 @@ class ProvinceSeeder extends Seeder
 
         Province::create([
             'province_name' => 'Kalimantan Tengah',
-            'banner' => Storage::url('kalimantan_tengah.jpg'),
+            'banner' => Storage::url('kalimantan_tengah.png'),
             'capital' => 'Ibu Kota Palangkaraya',
             'local_language' => 'Bahasa Dayak',
             'island' => 'Kalimantan',
@@ -338,13 +338,13 @@ class ProvinceSeeder extends Seeder
             'regional_house_image' => Storage::url('rumah_radakng.jpg'),
             'house_desc' => 'Rumah Radakng, rumah adat terbesar suku Dayak Kayanatn di Indonesia, terkenal karena ukurannya yang luar biasa: panjangnya mencapai 138 meter, lebar 30 meter, serta tinggi 7 meter. Disebut juga "rumah panjang" karena strukturnya yang memanjang.',
             'dance' => 'Tari Mandau',
-            'dance_image' => Storage::url('tari_tari_mandau.jpg'),
+            'dance_image' => Storage::url('tari_mandau.jpg'),
             'dance_desc' => 'Tari Mandau adalah ekspresi seni tarian yang menggambarkan kisah kepahlawanan dan keberanian menggunakan senjata tradisional Mandau suku Dayak di Kalimantan. Gerakannya menampilkan kekuatan, keanggunan, dan kepercayaan dalam perjuangan atau pertempuran. Para penari menggambarkan aksi dengan membawa replika Mandau sambil menampilkan gerakan yang menonjolkan kepiawaian dan keberanian. Tari Mandau sering kali dipentaskan dalam berbagai upacara adat atau sebagai bagian dari festival budaya, menjadi cara untuk memperingati keberanian leluhur serta menyampaikan pesan nilai-nilai keberanian dan kehormatan yang dijunjung tinggi oleh suku Dayak.',
             'weapon' => 'Mandau',
             'weapon_image' => Storage::url('senjata_mandau.jpg'),
             'weapon_desc' => 'Mandau adalah senjata tradisional suku Dayak di Kalimantan, Indonesia. Pedang ini memiliki bilah melengkung satu mata yang tajam dan gagang kayu yang dihiasi dengan ukiran atau hiasan khas. Mandau bukan hanya senjata, melainkan juga lambang kehormatan, keberanian, dan status sosial dalam masyarakat Dayak. Dipakai dalam upacara adat, ritual, atau sebagai hiasan dalam tarian tradisional, mandau memiliki nilai simbolis yang dalam dalam kehidupan sehari-hari dan juga dalam warisan budaya suku Dayak, menjadi representasi dari keanggunan seni dan keterampilan pandai besi tradisional.',
             'music' => 'Kecapi',
-            'music_image' => Storage::url('alatmusik_kecapi.jpg'),
+            'music_image' => Storage::url('alatmusik_kecapi.jpeg'),
             'music_desc' => 'Kecapi adalah alat musik tradisional Indonesia yang termasuk dalam kategori alat musik petik. Biasanya terbuat dari kayu dengan senar yang ditegangkan di atasnya. Ada dua jenis kecapi: kecapi siter yang berasal dari Jawa Tengah dan kecapi zither yang ditemukan di berbagai daerah. Alat musik ini dimainkan dengan cara dipetik menggunakan jari-jari tangan. Suara yang dihasilkan bersifat lembut dan melankolis, sering digunakan dalam musik klasik tradisional, upacara adat, atau sebagai pengiring lagu-lagu tradisional. Kecapi menjadi bagian tak terpisahkan dari kekayaan musik tradisional Indonesia.',
             'tradition' => 'Pesta Perahu Hias',
             'flash_info' => 'Kalimantan Tengah adalah provinsi yang terletak di bagian tengah Pulau Kalimantan, Indonesia. Wilayah ini kaya akan keindahan alamnya, terutama hutan hujan tropis, sungai-sungai besar seperti Sungai Kahayan, serta danau-danau yang mempesona seperti Danau Tahai dan Danau Sembuluh. Taman Nasional Tanjung Puting terkenal dengan program pelestarian orangutan dan keanekaragaman hayati yang melimpah. Provinsi ini juga memiliki potensi sumber daya alam yang besar, terutama dalam sektor pertanian dan pertambangan. Kebudayaan suku Dayak mendominasi di sini, tercermin dalam tradisi, seni, dan adat istiadat yang kaya akan warisan leluhur. Palangkaraya, ibu kotanya, memiliki daya tarik budaya dan alam yang menjadi tujuan wisata yang menarik.'
@@ -362,7 +362,7 @@ class ProvinceSeeder extends Seeder
             'regional_house_image' => Storage::url('rumah_radakng.jpg'),
             'house_desc' => 'Rumah Radakng, rumah adat terbesar suku Dayak Kayanatn di Indonesia, terkenal karena ukurannya yang luar biasa: panjangnya mencapai 138 meter, lebar 30 meter, serta tinggi 7 meter. Disebut juga "rumah panjang" karena strukturnya yang memanjang.',
             'dance' => 'Tari Enggang',
-            'dance_image' => Storage::url('tari_tari_enggang.jpg'),
+            'dance_image' => Storage::url('tari_enggang.jpg'),
             'dance_desc' => 'Tari Enggang adalah tarian tradisional yang berasal dari suku Dayak di Kalimantan. Tarian ini menggambarkan gerakan indah dan gemulai yang terinspirasi oleh burung Enggang, atau hornbill, yang dianggap suci dan memiliki makna khusus dalam budaya Dayak. Gerakan tarian ini menirukan gerakan burung Enggang, dengan sayap yang dikibaskan dan langkah yang elegan. Tari Enggang sering dipentaskan dalam berbagai upacara adat, perayaan, atau acara budaya sebagai penghormatan terhadap keindahan alam dan simbolisme penting burung Enggang dalam kepercayaan dan kebudayaan suku Dayak.',
             'weapon' => 'Mandau',
             'weapon_image' => Storage::url('senjata_mandau.jpg'),
@@ -386,7 +386,7 @@ class ProvinceSeeder extends Seeder
             'regional_house_image' => Storage::url('rumah_badui.jpg'),
             'house_desc' => 'Rumah Baduy, yang juga dikenal sebagai rumah adat Baduy, adalah rumah tradisional suku Baduy di Banten, Indonesia. Biasanya terbuat dari bahan alami seperti kayu, bambu, dan anyaman daun-daunan. Rumah Baduy memiliki atap berbentuk limas sederhana dan dinding yang terbuat dari anyaman bambu atau daun nipah. Struktur rumah ini mementingkan kesederhanaan, seringkali hanya terdiri dari satu ruangan tanpa pembagian interior yang jelas. Rumah Baduy mencerminkan gaya hidup yang sangat dekat dengan alam dan menjadi bagian integral dari keberadaan masyarakat Baduy yang menjunjung tinggi tradisi dan nilai-nilai kebudayaan mereka.',
             'dance' => 'Tari Seren Taun',
-            'dance_image' => Storage::url('tari_tari_seren_taun.jpg'),
+            'dance_image' => Storage::url('tari_seren_taun.jpg'),
             'dance_desc' => 'Tari Seren Taun adalah tarian tradisional dari masyarakat Sunda di Jawa Barat, Indonesia. Dipentaskan dalam rangka menyambut atau memperingati masa panen padi yang melimpah. Gerakannya menggambarkan proses bercocok tanam, panen, dan kegembiraan petani atas hasil panen yang melimpah. Dengan gerakan yang dinamis, tarian ini menampilkan langkah-langkah yang menggambarkan proses pertanian secara artistik. Seren Taun bukan hanya tarian hiburan, tetapi juga menjadi bentuk penghormatan kepada alam dan upaya merayakan keberhasilan dalam memenuhi kebutuhan pangan, menegaskan pentingnya hasil panen dalam kehidupan masyarakat Sunda.',
             'weapon' => 'Golok Banten',
             'weapon_image' => Storage::url('senjata_golok_banten.jpg'),
@@ -410,7 +410,7 @@ class ProvinceSeeder extends Seeder
             'regional_house_image' => Storage::url('rumah_kebaya.jpg'),
             'house_desc' => 'Rumah Kebaya merujuk pada gaya arsitektur tradisional yang dianggap mirip dengan potongan dan desain baju kebaya di Indonesia. Biasanya, rumah ini memiliki atap yang melengkung dan gagah dengan detail-detail rumit yang menyerupai desain kerah atau hiasan pada kebaya. Struktur rumah ini sering ditemukan di beberapa daerah di Indonesia dan memancarkan nuansa elegan serta indah yang terinspirasi dari keindahan kebaya. Meskipun tidak ada hubungan langsung antara rumah dan baju kebaya, namun sebutan ini digunakan untuk menggambarkan kehalusan dan keindahan arsitektur tradisional yang mirip dengan kebaya.',
             'dance' => 'Tari Topeng Betawi',
-            'dance_image' => Storage::url('tari_tari_topeng.jpg'),
+            'dance_image' => Storage::url('tari_topeng.png'),
             'dance_desc' => 'Tari Topeng merupakan bentuk seni tradisional di Indonesia yang menggambarkan kisah-kisah mitologis atau cerita sejarah melalui gerakan-gerakan penari yang memakai topeng. Setiap topeng memiliki karakter dan makna tersendiri, sering kali merepresentasikan tokoh-tokoh tertentu dalam cerita atau kepercayaan setempat. Tarian ini tidak hanya menampilkan gerakan tari yang khas, tetapi juga mengandalkan ekspresi wajah penari untuk menggambarkan karakter dari topeng yang mereka pakai. Tari Topeng bukan hanya sebagai hiburan, tetapi juga memiliki nilai-nilai budaya, historis, dan estetis yang kaya, menjadi warisan seni yang berharga dalam budaya Indonesia.',
             'weapon' => 'Golok',
             'weapon_image' => Storage::url('senjata_golok.jpg'),
@@ -424,14 +424,14 @@ class ProvinceSeeder extends Seeder
 
         Province::create([
             'province_name' => 'Jawa Barat',
-            'banner' => Storage::url('jawa_barat.jpg'),
+            'banner' => Storage::url('jawa_barat.jpeg'),
             'capital' => 'Ibu Kota Bandung',
             'local_language' => 'Bahasa Sunda',
             'island' => 'Jawa.',
             'population' => 1000000,
             'ethnic' => 'Javanese',
             'regional_house' => 'Rumah Sunda',
-            'regional_house_image' => Storage::url('rumah_sunda.jpg'),
+            'regional_house_image' => Storage::url('rumah_sunda.jpeg'),
             'house_desc' => 'Rumah adat Sunda, khas dari masyarakat Sunda di Jawa Barat, Indonesia, memiliki keunikannya sendiri dalam arsitektur dan desain. Biasanya, rumah Sunda terbuat dari kayu dengan atap yang melengkung, sering kali disebut atap sirap karena bentuknya yang menyerupai sirap. Dindingnya terbuat dari bambu anyaman atau kayu. Struktur rumah ini memperhatikan iklim tropis dengan sirkulasi udara yang baik. Bagian dalamnya terbagi menjadi beberapa ruangan dengan fungsi tertentu. Rumah Sunda mencerminkan nilai-nilai tradisional, keakraban dengan alam, dan keindahan arsitektur yang tahan lama.',
             'dance' => 'Jaipongan',
             'dance_image' => Storage::url('tari_jaipongan.jpg'),
@@ -448,7 +448,7 @@ class ProvinceSeeder extends Seeder
 
         Province::create([
             'province_name' => 'Jawa Tengah',
-            'banner' => Storage::url('.jpg'),
+            'banner' => Storage::url('jawa_tengah.jpg'),
             'capital' => 'Ibu Kota Semarang',
             'local_language' => 'Bahasa Jawa',
             'island' => 'Jawa.',
@@ -472,7 +472,7 @@ class ProvinceSeeder extends Seeder
 
         Province::create([
             'province_name' => 'Daerah Istimewa Yogyakarta',
-            'banner' => Storage::url('.jpg'),
+            'banner' => Storage::url('daerah_istimewa_yogyakarta.jpg'),
             'capital' => 'Ibu Kota Yogyakarta',
             'local_language' => 'Bahasa Jawa',
             'island' => 'Jawa.',
@@ -496,7 +496,7 @@ class ProvinceSeeder extends Seeder
 
         Province::create([
             'province_name' => 'Jawa Timur',
-            'banner' => Storage::url('.jpg'),
+            'banner' => Storage::url('jawa_timur.jpg'),
             'capital' => 'Ibu Kota Surabaya',
             'local_language' => 'Bahasa Jawa',
             'island' => 'Jawa.',
@@ -520,7 +520,7 @@ class ProvinceSeeder extends Seeder
 
         Province::create([
             'province_name' => 'Bali',
-            'banner' => Storage::url('.jpg'),
+            'banner' => Storage::url('bali.jpg'),
             'capital' => 'Ibu Kota Denpasar',
             'local_language' => 'Bahasa Bali',
             'island' => 'Bali.',
@@ -544,7 +544,7 @@ class ProvinceSeeder extends Seeder
 
         Province::create([
             'province_name' => 'Nusa Tenggara Timur',
-            'banner' => Storage::url('.jpg'),
+            'banner' => Storage::url('nusa_tenggara_timur.jpg'),
             'capital' => 'Ibu Kota Kupang',
             'local_language' => 'Bahasa Tetun',
             'island' => 'Terletak di Kepulauan Nusa Tenggara.',
@@ -568,7 +568,7 @@ class ProvinceSeeder extends Seeder
 
         Province::create([
             'province_name' => 'Nusa Tenggara Barat',
-            'banner' => Storage::url('.jpg'),
+            'banner' => Storage::url('nusa_tenggara_barat.jpg'),
             'capital' => 'Ibu Kota Mataram',
             'local_language' => 'Bahasa Sasak',
             'island' => 'Terletak di Kepulauan Nusa Tenggara.',
@@ -592,7 +592,7 @@ class ProvinceSeeder extends Seeder
 
         Province::create([
             'province_name' => 'Gorontalo',
-            'banner' => Storage::url('.jpg'),
+            'banner' => Storage::url('gorontalo.jpg'),
             'capital' => 'Ibu Kota Gorontalo',
             'local_language' => 'Bahasa Gorontalo',
             'island' => 'Sulawesi.',
@@ -616,7 +616,7 @@ class ProvinceSeeder extends Seeder
 
         Province::create([
             'province_name' => 'Sulawesi Barat ',
-            'banner' => Storage::url('.jpg'),
+            'banner' => Storage::url('sulaesi_barat.jpg'),
             'capital' => 'Ibu Kota Mamuju',
             'local_language' => 'Bahasa Mamuju',
             'island' => 'Sulawesi.',
@@ -640,7 +640,7 @@ class ProvinceSeeder extends Seeder
 
         Province::create([
             'province_name' => 'Sulawesi Tengah',
-            'banner' => Storage::url('.jpg'),
+            'banner' => Storage::url('sulaesi_tengah.jpg'),
             'capital' => 'Ibu Kota Palu',
             'local_language' => 'Bahasa Tomini-Tolitoli',
             'island' => 'Sulawesi.',
@@ -664,7 +664,7 @@ class ProvinceSeeder extends Seeder
 
         Province::create([
             'province_name' => 'Sulawesi Utara',
-            'banner' => Storage::url('.jpg'),
+            'banner' => Storage::url('sulawesi_utara.jpg'),
             'capital' => 'Ibu Kota Manado',
             'local_language' => 'Bahasa Minahasa',
             'island' => 'Sulawesi.',
@@ -688,7 +688,7 @@ class ProvinceSeeder extends Seeder
 
         Province::create([
             'province_name' => 'Sulawesi Tenggara',
-            'banner' => Storage::url('.jpg'),
+            'banner' => Storage::url('sulawesi_tenggara.jpg'),
             'capital' => 'Ibu Kota Kendari',
             'local_language' => 'Bahasa Tolaki',
             'island' => 'Sulawesi.',
@@ -712,7 +712,7 @@ class ProvinceSeeder extends Seeder
 
         Province::create([
             'province_name' => 'Sulawesi Selatan',
-            'banner' => Storage::url('.jpg'),
+            'banner' => Storage::url('sulawesi_selatan.jpg'),
             'capital' => 'Bahasa Bugis',
             'local_language' => 'Bugis',
             'island' => 'Sulawesi.',
@@ -736,7 +736,7 @@ class ProvinceSeeder extends Seeder
 
         Province::create([
             'province_name' => 'Maluku Utara',
-            'banner' => Storage::url('.jpg'),
+            'banner' => Storage::url('maluku_utara.jpg'),
             'capital' => 'Ibu Kota Sofifi',
             'local_language' => 'Bahasa Ternate',
             'island' => 'Terletak di Kepulauan Maluku.',
@@ -760,7 +760,7 @@ class ProvinceSeeder extends Seeder
 
         Province::create([
             'province_name' => 'Maluku',
-            'banner' => Storage::url('.jpg'),
+            'banner' => Storage::url('maluku.jpg'),
             'capital' => 'Ibu Kota Ambon',
             'local_language' => 'Bahasa Ambon',
             'island' => 'Terletak di Kepulauan Maluku.',
@@ -784,7 +784,7 @@ class ProvinceSeeder extends Seeder
 
         Province::create([
             'province_name' => 'Papua Barat',
-            'banner' => Storage::url('.jpg'),
+            'banner' => Storage::url('papua_barat.jpg'),
             'capital' => 'Ibu Kota Manokwari',
             'local_language' => 'Bahasa Papua',
             'island' => 'Papua.',
@@ -808,7 +808,7 @@ class ProvinceSeeder extends Seeder
 
         Province::create([
             'province_name' => 'Papua',
-            'banner' => Storage::url('.jpg'),
+            'banner' => Storage::url('papua.jpeg'),
             'capital' => 'Ibu Kota Jayapura',
             'local_language' => 'Bahasa Papua',
             'island' => 'Papua.',
@@ -832,7 +832,7 @@ class ProvinceSeeder extends Seeder
 
         Province::create([
             'province_name' => 'Papua Tengah',
-            'banner' => Storage::url('.jpg'),
+            'banner' => Storage::url('papua_tengah.jpeg'),
             'capital' => 'Ibu Kota Nabire',
             'local_language' => 'Bahasa Biak',
             'island' => 'Papua.',
@@ -856,7 +856,7 @@ class ProvinceSeeder extends Seeder
 
         Province::create([
             'province_name' => 'Papua Pegunungan',
-            'banner' => Storage::url('.jpg'),
+            'banner' => Storage::url('papua_pegunungan.jpg'),
             'capital' => 'Ibu Kota Jayawijaya',
             'local_language' => 'Bahasa Lani',
             'island' => 'Papua.',
@@ -880,7 +880,7 @@ class ProvinceSeeder extends Seeder
 
         Province::create([
             'province_name' => 'Papua Selatan',
-            'banner' => Storage::url('.jpg'),
+            'banner' => Storage::url('papua_selatan.jpeg'),
             'capital' => 'Ibu Kota Merauke',
             'local_language' => 'Bahasa Muyu',
             'island' => 'Papua.',
@@ -904,7 +904,7 @@ class ProvinceSeeder extends Seeder
 
         Province::create([
             'province_name' => 'Papua Barat Daya',
-            'banner' => Storage::url('.jpg'),
+            'banner' => Storage::url('papua_barat_daya.jpg'),
             'capital' => 'Ibu Kota Sorong',
             'local_language' => 'Bahasa Sorong',
             'island' => 'Papua.',
